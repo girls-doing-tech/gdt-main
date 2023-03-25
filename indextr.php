@@ -1,32 +1,22 @@
 <?php
-
 $name1='';
-
-
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <style>
-      
-
-
-}
-/* CSS */
-
-
-
-@media (min-width: 768px) {
-  .button-43 {
-    padding: 1rem 2rem;
-  }
-}
-@media (min-width: 768px) {
-  #btn {
-    display: none;
-  }
-}
+    <style> 
+    /* CSS */
+    @media (min-width: 768px) {
+      .button-43 {
+        padding: 1rem 2rem;
+      }
+    }
+    @media (min-width: 768px) {
+      #btn {
+        display: none;
+      }
+    }
     </style>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -36,8 +26,8 @@ $name1='';
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="assets/img/logo11.jpeg" rel="icon" />
+    <link href="assets/img/logo11.jpeg" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
     <link
@@ -81,39 +71,30 @@ $name1='';
     <header id="header" class="fixed-top">
       <div
         class="container d-flex align-items-center justify-content-lg-between"
-      >
-      <!--   <h1 class="logo me-auto me-lg-0">
-          <a href="index.html">Gp<span>.</span></a>
-        </h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-         <a href="" class="logo me-auto me-lg-0"><img src="assets/img/logo3.png" alt="" class="img-fluid" width="100" height="70"></a>
-
-        <nav id="navbar" class="navbar order-last order-lg-0">
-          <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Anasayfa</a></li>
-            <li><a class="nav-link scrollto" href="#about">Hakkımızda</a></li>
-            <li><a class="nav-link scrollto" href="#services">Hizmetlerimiz</a></li>
-            <li>
-              <a class="nav-link scrollto" href="#portfolio">Projeler</a>
-            </li>
-            <li><a class="nav-link scrollto" href="#team">Ekip</a></li>
-           
-            <li><a class="nav-link scrollto" href="#contact">İletişim</a></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
-
-      <!-- Example single danger button -->
-<div class="btn-group">
-  <button type="button" class="btn btn-light dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Dil
-  </button>
-  <div class="dropdown-menu">
-    
-    <a class="dropdown-item" a href="indexar.php">AR</a>
-    <a class="dropdown-item" a href="index.php">EN</a>
-</div>
+      >    
+        <a href="" class="logo me-auto me-lg-0"><img src="assets/img/logo3.png" alt="" class="img-fluid" width="100" height="70"></a>
+          <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">Anasayfa</a></li>
+              <li><a class="nav-link scrollto" href="#about">Hakkımızda</a></li>
+              <li><a class="nav-link scrollto" href="#services">Hizmetlerimiz</a></li>
+              <li>
+                <a class="nav-link scrollto" href="#portfolio">Projeler</a>
+              </li>
+              <li><a class="nav-link scrollto" href="#team">Ekip</a></li>           
+              <li><a class="nav-link scrollto" href="#contact">İletişim</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav>
+          <!-- .navbar -->
+        <!-- Example single danger button -->
+        <div class="dropdown-toggle">
+          <select name="forma" onchange="location = this.value;" class="forma">
+            <option value="indexar.php" hidden>TR</option>
+            <option value="index.php">EN</option>
+            <option value="indexar.php">AR</option>
+          </select>
+        </div>
       </div>
     </header>
     <!-- End Header -->
@@ -127,7 +108,7 @@ $name1='';
           data-aos-delay="150"
         >
           <div class="col-xl-6 col-lg-8">
-            <h1>GİRLS DOİNG TECH<!-- <span><i class="bi bi-laptop"></i></span> --></h1>
+            <h1>GIRLS DOING TECH</h1>
             <h2>Vizyonumuzu gerçeğe dönüştürüyoruz</h2>
           </div>
         </div>
@@ -171,235 +152,97 @@ $name1='';
       </div>
     </section>
     <!-- End Hero -->
-
-    <main id="main">
-       <!-- ======= About Section ======= -->
-       <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-        <div class="section-title">
-            <h2>About Us</h2>
-            
+    <main id="main">       
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/about_us.png" class="img-fluid" alt="" />
           </div>
-          <div class="row">
-            <div
-              class="col-lg-6 order-1 order-lg-2"
-              data-aos="fade-left"
-              data-aos-delay="100"
-            >
-              <img src="assets/img/about_us.png" class="img-fluid" alt="" />
-            </div>
-            <div
-              class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
-              data-aos="fade-right"
-              data-aos-delay="100"
-            >
-              <h3>GirlsDoingTech</h3>
-              <p class="fst-italic">
-                Group of girls that decided to share their passion for
-                technology and life. We joined one of the most incredible
-                Bootcamp in the web development <strong>Re:coded</strong> and
-                <strong>Flatiron school</strong> to gain the needed knowledge,
-                and then we established our startup.
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <h3>GirlsDoingTech</h3>
+            <p>
+            Teknolojiye ve hayata olan tutkularını paylaşmaya karar veren bir grup kız. Bir eğitim kampında sınıf arkadaşı olmakla kalmayıp iş ortağı olmaya karar verdik ve bu alandaki bilgimizi, uzmanlığımızı paylaşmak ve bir kız ekibinin teknoloji dünyasının parçası olabileceğini dünyaya göstermek için bu platformu oluşturduk.
+            </p>
+            <p>Bizimle iletişime geçin &#128103;&#127800;.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="image col-lg-6" style="background-image: url('assets/img/about_us_feature.jpg')"
+            data-aos="fade-right"></div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-receipt"></i>
+              <h4>Hızlılık</h4>
+              <p>
+              Web siteleri geliştirmenin birçok alanında uzman olan kapsamlı bir kadroya sahibiz: arayüz tasarımı,
+                front-end ve backend programlama.
               </p>
-              <ul>
-                <li>
-                  <i class="ri-check-double-line"></i> We have many skills
-                  covering each side of web development, from design, front end,
-                  and backend development.
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i> We work on the new
-                  frameworks on each technology that guarantee the best
-                  performance for the websites that we build.
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i> We are from different
-                  nationalities, which means we will offer professional
-                  translation for three languages: Arabic, English, and Turkish.
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i> We make your vision come
-                  to reality.
-                </li>
-              </ul>
-              <p>Get in touch &#128103;&#127800;.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Güncel</h4>
+              <p>
+                Oluşturduğumuz web siteleri için en iyi performansı garanti eden her teknolojide yeni frameworkler
+                üzerinde çalışıyoruz.
+              </p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-images"></i>
+              <h4>Çok dilli</h4>
+              <p>
+                Farklı milletlerden geliyoruz, yani üç dilde profesyonel çeviri sunacağız: Arapça, İngilizce ve Türkçe.
+              </p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-shield"></i>
+              <h4>Estetik</h4>
+              <p>Hayallerinizi gerçeğe dönüştürüyoruz.</p>
             </div>
           </div>
         </div>
-      </section>
-      <!-- End About Section -->
-
-
-     <!-- ======= Clients Section Slider ======= -->
-     <section id="clients" class="clients">
-        <div class="container" data-aos="zoom-in">
-          <div class="clients-slider swiper">
-            <div class="swiper-wrapper align-items-center">
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <!-- End Clients Section -->
-
-      <!-- ======= Features Section ======= -->
-<!-- ======= Features Section ======= -->
-<section id="features" class="features">
-        <div class="container" data-aos="fade-up">
-        <div class="section-title">
-            <h2>Features</h2>
-            
-          </div>
-          <div class="row">
-            <div
-              class="image col-lg-6"
-              style="background-image: url('assets/img/about_us_feature.jpg')"
-              data-aos="fade-right"
-            ></div>
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-              <div
-                class="icon-box mt-5 mt-lg-0"
-                data-aos="zoom-in"
-                data-aos-delay="150"
-              >
-                <i class="bx bx-receipt"></i>
-                <h4>GDT</h4>
-                <p>
-                  We have many skills covering each side of web development,
-                  from design, front end, and backend development.
-                </p>
-              </div>
-              <div
-                class="icon-box mt-5"
-                data-aos="zoom-in"
-                data-aos-delay="150"
-              >
-                <i class="bx bx-cube-alt"></i>
-                <h4>GDT</h4>
-                <p>
-                  We work on the new frameworks on each technology that
-                  guarantee the best performance for the websites that we build.
-                </p>
-              </div>
-              <div
-                class="icon-box mt-5"
-                data-aos="zoom-in"
-                data-aos-delay="150"
-              >
-                <i class="bx bx-images"></i>
-                <h4>GDT</h4>
-                <p>
-                  We are from different nationalities, which means we will offer
-                  professional translation for three languages: Arabic, English,
-                  and Turkish.
-                </p>
-              </div>
-              <div
-                class="icon-box mt-5"
-                data-aos="zoom-in"
-                data-aos-delay="150"
-              >
-                <i class="bx bx-shield"></i>
-                <h4>GDT</h4>
-                <p>We make your vision come to reality.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Features Section -->
-
-      <!-- ======= Services Section ======= -->
+      </div>
+    </section>
+    <!-- End Features Section -->
+    <!-- ======= Services Section ======= -->
       <section id="services" class="services">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Check our Services</h2>
-           
+            <h2>Hizmetlerimiz</h2>
           </div>
-
-          <div class="row">
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch"
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch"
               data-aos="zoom-in"
               data-aos-delay="100"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4><a href="">Lorem Ipsum</a></h4>
-                <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
-                </p>
-              </div>
+          >
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-mobile"></i></div>
+              <h4><a href=""> Mobil uygulamaları</a></h4>
+              <p>
+              Web siteniz ve mobil uygulamanız birbirleri kadar
+               sorunsuz çalıştığında, işte o zaman doğru şeyi
+                yaptığınızdan emin olabilirsiniz. Burada doğru olan bizimle 
+                iletişime geçip bu konuda soru sormaktır.
+              </p>
             </div>
-
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch"
               data-aos="zoom-in"
-              data-aos-delay="200"
-            >
+              data-aos-delay="100"
+            > 
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-file"></i></div>
-                <h4><a href="">Sed ut perspiciatis</a></h4>
+                <div class="icon"><i class="bx bx-minus-back"></i></div>
+                <h4><a href=""> Arkayüz yazılımı</a></h4>
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore
+                Web sitesinin gizli kısmıdır.
+                Web sitenizi daha kullanışlı, sorunsuz çalışan, daha hızlı ve daha önemli hale getirebiliriz       
                 </p>
               </div>
             </div>
@@ -409,28 +252,15 @@ $name1='';
               data-aos="zoom-in"
               data-aos-delay="300"
             >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4><a href="">Magni Dolores</a></h4>
-                <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia
-                </p>
-              </div>
-            </div>
 
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-world"></i></div>
-                <h4><a href="">Nemo Enim</a></h4>
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-laptop"></i></div>
+              
+                <h4><a href="">Önyüz yazılımı</a></h4>
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis
-                </p>
+
+                Kullanıcıların sayfanızı açtıklarında gördükleri ilk şey - bu, vizyonunuzu göreceğiniz kısımdır.          
+                  </p>
               </div>
             </div>
 
@@ -439,13 +269,29 @@ $name1='';
               data-aos="zoom-in"
               data-aos-delay="200"
             >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-slideshow"></i></div>
-                <h4><a href="">Dele cardo</a></h4>
+             
+              <div class="icon-box">  
+                <div class="icon"><i class="bx bxs-brush"></i></div>
+                <h4><a href="">Kullanıcı arayüzü tasarımı</a></h4>
                 <p>
-                  Quis consequatur saepe eligendi voluptatem consequatur dolor
-                  consequuntur
-                </p>
+                Hoş ve güzel siteler tasarlamak.   
+               kullanıcıların sayfayla sorunsuz ve kolay bir şekilde etkileşim kurmasını sağlamak         </p>       </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bxs-message-rounded-dots"></i></div>
+                <h4><a href="">Dil</a></h4>
+                
+
+                <p>
+                4'ten fazla farklı dil konuştuğumuz için, hedef kitlenize en rahat oldukları dilde ulaşabilecek
+                 Çoklu dil web siteleri oluşturma yeteneğine sahibiz.
+              </p>
               </div>
             </div>
 
@@ -455,31 +301,23 @@ $name1='';
               data-aos-delay="300"
             >
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-arch"></i></div>
-                <h4><a href="">Divera don</a></h4>
+                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                <h4><a href="">Sunum</a></h4>
                 <p>
-                  Modi nostrum vel laborum. Porro fugit error sit minus sapiente
-                  sit aspernatur
-                </p>
-              </div>
+                Web siteniz hakkında fikir veren basit, kısa ve yaratıcı sunumlar hazırlıyoruz.     </p>          </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> 
       <!-- End Services Section -->
-
       <!-- ======= Cta Section ======= -->
       <section id="cta" class="cta">
         <div class="container" data-aos="zoom-in">
           <div class="text-center">
-            <h3>Call To Action</h3>
-            <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
-            </p>
-            <a class="cta-btn" href="#">Call To Action</a>
+            <h3>En iyi teklifleri almak için bizimle iletişime geçin</h3>
+            <p>Fikirler üretip profesyonel yöntemlerle hayata geçiriyoruz. Dijital varlığınızı güçlendiriyor ve vizyonunuzu destekliyoruz. Fikrinizi başlangıcından sonuna rakip projeler arasında lansmanına kadar adım adım görmenizi sağlıyoruz. Size en iyi şekilde yardımcı olmayı hedefliyor, memnuniyetinize ulaşmak için çalışıyoruz.       
+</p>  
+<a class="cta-btn" href="https://wa.me/905510831183?text=hello%20i%20have%20question%20of%20your%20service%20can%20you%20help%20me"> iletişime geçin</a>
           </div>
         </div>
       </section>
@@ -489,20 +327,17 @@ $name1='';
       <section id="portfolio" class="portfolio">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Check our Portfolio</h2>
-           
+            <h2>PORTFÖYÜMÜZE GÖZ ATIN</h2>           
           </div>
-
           <div class="row" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-12 d-flex justify-content-center">
               <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-web">Websites</li>
-                <li data-filter=".filter-app">Mobile Apps</li>
+                <li data-filter="*" class="filter-active">Hepsi</li>
+                <li data-filter=".filter-web">Websiteler</li>
+                <li data-filter=".filter-app">Mobile uygulamaları</li>
               </ul>
             </div>
           </div>
-
           <div
             class="row portfolio-container"
             data-aos="fade-up"
@@ -516,8 +351,8 @@ $name1='';
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>Health care organization Website.</h4>
-                  <p>Responsive & Available in 3 languages.</p>
+                  <h4>Sağlık kuruluşu web sitesi.</h4>
+                  <p>Responsive web tasarım & 3 dilde mevcuttur.</p>
                   <p>React, Bootstrap</p>
                   <div class="portfolio-links">
                     <a
@@ -537,7 +372,6 @@ $name1='';
                 </div>
               </div>
             </div>
-
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
@@ -546,10 +380,9 @@ $name1='';
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>Real estate website</h4>
-                  <p>Contains articles updated using Wordpress.</p>
-                  <p>Responsive</p>
-                  <p>Wordpress CMS</p>
+                  <h4>Emlakçı sitesi</h4>
+                  <p>web site makaleler içerir , Wordpress, Responsive, Wordpress CMS</p>
+                 
                   <div class="portfolio-links">
                     <a
                       href="assets/img/portfolio/newest.png"
@@ -565,7 +398,6 @@ $name1='';
                 </div>
               </div>
             </div>
-
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
@@ -574,8 +406,8 @@ $name1='';
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>Planner</h4>
-                  <p>Sign up, add, edit, and delete your daily plans</p>
+                  <h4>Planlayıcı</h4>
+                  <p>Kaydolun, günlük planlarınızı ekleyin, düzenleyin ve silin</p>
                   <p>React, Firebase</p>
                   <div class="portfolio-links">
                     <a
@@ -594,7 +426,6 @@ $name1='';
                 </div>
               </div>
             </div>
-
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
@@ -603,8 +434,8 @@ $name1='';
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>Portfolio</h4>
-                  <p>Fun and responsive design</p>
+                  <h4>Portfolyo</h4>
+                  <p>Eğlenceli ve responsive tasarım</p>
                   <p>React</p>
                   <div class="portfolio-links">
                     <a
@@ -623,7 +454,6 @@ $name1='';
                 </div>
               </div>
             </div>
-
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
@@ -633,7 +463,7 @@ $name1='';
                 />
                 <div class="portfolio-info">
                   <h4>Tic-Tac-Toe</h4>
-                  <p>Let you return to your previous moves.</p>
+                  <p>Önceki hamlelerinize dönmenize sağlar.</p>
                   <p>React, Redux</p>
                   <div class="portfolio-links">
                     <a
@@ -656,243 +486,17 @@ $name1='';
         </div>
       </section>
       <!-- End Portfolio Section -->
-
-      <!-- ======= Counts Section ======= -->
-      <section id="counts" class="counts">
-        <div class="container" data-aos="fade-up">
-          <div class="row no-gutters">
-            <div
-              class="
-                image
-                col-xl-5
-                d-flex
-                align-items-stretch
-                justify-content-center justify-content-lg-start
-              "
-              data-aos="fade-right"
-              data-aos-delay="100"
-            ></div>
-            <div
-              class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch"
-              data-aos="fade-left"
-              data-aos-delay="100"
-            >
-              <div class="content d-flex flex-column justify-content-center">
-                <h3>Voluptatem dignissimos provident quasi</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Duis aute irure dolor in reprehenderit
-                </p>
-                <div class="row">
-                  <div class="col-md-6 d-md-flex align-items-md-stretch">
-                    <div class="count-box">
-                      <i class="bi bi-emoji-smile"></i>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="65"
-                        data-purecounter-duration="2"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Happy Clients</strong> consequuntur voluptas
-                        nostrum aliquid ipsam architecto ut.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6 d-md-flex align-items-md-stretch">
-                    <div class="count-box">
-                      <i class="bi bi-journal-richtext"></i>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="85"
-                        data-purecounter-duration="2"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Projects</strong> adipisci atque cum quia
-                        aspernatur totam laudantium et quia dere tan
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6 d-md-flex align-items-md-stretch">
-                    <div class="count-box">
-                      <i class="bi bi-clock"></i>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="35"
-                        data-purecounter-duration="4"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Years of experience</strong> aut commodi quaerat
-                        modi aliquam nam ducimus aut voluptate non vel
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6 d-md-flex align-items-md-stretch">
-                    <div class="count-box">
-                      <i class="bi bi-award"></i>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="20"
-                        data-purecounter-duration="4"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Awards</strong> rerum asperiores dolor alias quo
-                        reprehenderit eum et nemo pad der
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End .content-->
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Counts Section -->
-
-      <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials">
-        <div class="container" data-aos="zoom-in">
-          <div
-            class="testimonials-slider swiper"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-1.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec
-                    porttitora entum suscipit rhoncus. Accusantium quam,
-                    ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                    risus at semper.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-2.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse
-                    labore quem cillum quid cillum eram malis quorum velit fore
-                    eram velit sunt aliqua noster fugiat irure amet legam anim
-                    culpa.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-3.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim
-                    sint quorum nulla quem veniam duis minim tempor labore quem
-                    eram duis noster aute amet eram fore quis sint minim.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-4.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa
-                    multos export minim fugiat minim velit minim dolor enim duis
-                    veniam ipsum anim magna sunt elit fore quem dolore labore
-                    illum veniam.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-5.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure
-                    aliqua veniam tempor noster veniam enim culpa labore duis
-                    sunt culpa nulla illum cillum fugiat legam esse veniam culpa
-                    fore nisi cillum quid.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <!-- End Testimonials Section -->
-
       <!-- ======= Team Section ======= -->
       <section id="team" class="team">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Check our Team</h2>
-            
+            <h2> EKİBİMİZE GÖZ ATIN</h2>            
           </div>
-
           <div class="row">
             <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
               <div class="member" data-aos="fade-up" data-aos-delay="100">
                 <div class="member-img">
-                  <img
-                    src="assets/img/team/team-1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                <img src="assets/img/team/team-11.jfif" class="img-fluid" alt="" /><br>
                   <div class="social">
                     <a href="https://github.com/rashaabdulrazzak"
                       ><i class="bi bi-github"></i
@@ -906,8 +510,8 @@ $name1='';
                   </div>
                 </div>
                 <div class="member-info">
-                  <h4>Rasha Abdulrazzaq</h4>
-                  <span>Fullstack Developer</span>
+                  <h4>Rasha Abdulrazzak</h4>
+                  <span>Yazılımcı</span>
                 </div>
               </div>
             </div>
@@ -915,11 +519,7 @@ $name1='';
             <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
               <div class="member" data-aos="fade-up" data-aos-delay="200">
                 <div class="member-img">
-                  <img
-                    src="assets/img/team/team-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                <img src="assets/img/team/team-66.jfif" class="img-fluid" alt="" />
                   <div class="social">
                     <a href="https://samaromm.github.io/samarspace/#/"
                       ><i class="bi bi-github"></i
@@ -932,7 +532,7 @@ $name1='';
                 </div>
                 <div class="member-info">
                   <h4>Samar Omar</h4>
-                  <span>Fullstack Developer</span>
+                  <span>Yazılımcı</span>
                 </div>
               </div>
             </div>
@@ -940,11 +540,7 @@ $name1='';
             <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
               <div class="member" data-aos="fade-up" data-aos-delay="300">
                 <div class="member-img">
-                  <img
-                    src="assets/img/team/team-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                <img src="assets/img/team/team-88.jfif" class="img-fluid" alt="" />
                   <div class="social">
                     <a href="https://github.com/Lobana-sky"
                       ><i class="bi bi-github"></i
@@ -958,7 +554,7 @@ $name1='';
                 </div>
                 <div class="member-info">
                   <h4>Lobana Alarabi</h4>
-                  <span>Fullstack Developer</span>
+                  <span>Yazılımcı</span>
                 </div>
               </div>
             </div>
@@ -966,11 +562,7 @@ $name1='';
             <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
               <div class="member" data-aos="fade-up" data-aos-delay="400">
                 <div class="member-img">
-                  <img
-                    src="assets/img/team/team-4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                <img src="assets/img/team/team-55.jpg" class="img-fluid" alt="" />
                   <div class="social">
                     <a href="https://github.com/manelurki"
                       ><i class="bi bi-github"></i
@@ -981,18 +573,14 @@ $name1='';
                 </div>
                 <div class="member-info">
                   <h4>Menel Turki</h4>
-                  <span>Fullstack Developer</span>
+                  <span>Yazılımcı</span>
                 </div>
               </div>
             </div>
             <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
               <div class="member" data-aos="fade-up" data-aos-delay="400">
                 <div class="member-img">
-                  <img
-                    src="assets/img/team/team-4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                <img src="assets/img/team/team-44.jfif" class="img-fluid" alt="" />
                   <div class="social">
                     <a href="https://github.com/yvvsra"
                       ><i class="bi bi-github"></i
@@ -1003,57 +591,81 @@ $name1='';
                 </div>
                 <div class="member-info">
                   <h4>Yusra Atta</h4>
-                  <span>Fullstack Developer</span>
+                  <span>Yazılımcı</span>
                 </div>
               </div>
             </div>
+            <!-- <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="400">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/team-4.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Zeynep </h4>
+                  <span>Fullstack Developer</span>
+                </div>
+              </div>
+            </div> -->
           </div>
         </div>
       </section>
-      <!-- End Team Section -->
       <!-- End Team Section -->
 
       <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Bize ulaşın</h2>
-            
-          </div>
-
-          <div>
-            <!-- <iframe
-              style="border: 0; width: 100%; height: 270px"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-              frameborder="0"
-              allowfullscreen
-            ></iframe> -->
-          </div>
-
+            <h2>Bize ulaşın</h2>            
+          </div> 
           <div class="row mt-5">
             <div class="col-lg-4">
               <div class="info">
                 <div class="address">
+                <a href="mailto:info@girlsdoingtech.com">
                 <i class="bi bi-envelope"></i>
                   <h4>E-posta:</h4>
-                  <p>girlsdoingtech@gmail.com</p>
+                  <p>info@girlsdoingtech.com</p>
+                </a>
                 </div>
-
+                <div class="whatsapp">
+                <a href="https://wa.me/905510831183?text=hello%20i%20have%20question%20of%20your%20service%20can%20you%20help%20me">
+                <i class="bi bi-whatsapp"></i>
+                  <h4>whatsapp:</h4>
+                  <p>+90 551 083 11 83</p>
+                </a>
+                </div>
                 <div class="email">
+                <a href="https://www.instagram.com/girlsdoingtech/">
                 <i class="bi bi-instagram"></i>
                   <h4>Instagram:</h4>
                   <p>girlsdoingtech</p>
+                </a>
                 </div>
 
                 <div class="phone">
+                <a href="https://www.facebook.com/girls_doing_tech">
                 <i class="bi bi-facebook"></i>
                   <h4>Facebook:</h4>
                   <p>girls_doing_tech</p>
+                  </a>
                 </div>
                 <div class="phone">
+                <a href="https://twitter.com/girlsdoingtech">
                 <i class="bi bi-twitter"></i>
                   <h4>Twitter:</h4>
                   <p>girlsdoingtech</p>
+                  </a>
                 </div>
               </div>
               
@@ -1062,8 +674,7 @@ $name1='';
             <div class="col-lg-8 mt-5 mt-lg-0">
               <form
                 action="forms/contact.php "  onsubmit="alert('İletişime geçtiğiniz için teşekkürler');" enctype="multipart/form-data"
-                method="post"
-                
+                method="post"     
                
               >
                 <div class="row">
@@ -1089,7 +700,7 @@ $name1='';
                   </div>
                 </div>
                <!---------->
-               <br>
+              
                <div class="row">
                 <div class="col-md-6 form-group">
                   <input
@@ -1112,10 +723,7 @@ $name1='';
                   />
                 </div>
               </div>
-             <!---------->
-
-
-                <div class="form-group mt-3">
+              <div class="form-group mt-3">
                   <input
                     type="text"
                     class="form-control"
@@ -1133,15 +741,7 @@ $name1='';
                     placeholder="Mesajınız*"
                     required
                   ></textarea>
-                </div>
-                <!-- <div class="my-3" style="background-color: aquamarine;">
-                
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div> --> <br>
-                
+                </div>             
                 <div class="text-center">
                   <button type="submit" class="button-43" name="submit">Gönder</button>
                 </div>
@@ -1149,13 +749,11 @@ $name1='';
                   <div>
                   
                   <?php echo "<p>".$name1."</p>";?>
-</div>
-                </div>
-               
-                <div class="text-center">
-              
-                </div>
-              </form>
+          </div>
+        </div>            
+        <div class="text-center">              
+        </div>
+        </form>
             </div>
           </div>
         </div>
@@ -1172,84 +770,44 @@ $name1='';
           <div class="row">
             <div class="col-lg-3 col-md-6">
               <div class="footer-info">
-                <br><h3>GDT<span>.</span></h3>
+                <br><h3>GDT<span></span></h3>
                 <p>
                  
-                  <strong>E-posta:</strong> girlsdoingtech@gmail.com<br />
+                  <strong>E-posta:</strong> info@girlsdoingtech.com<br />
                 </p>
                 
               </div>
             </div>
 
-             <div class="col-lg-5 col-md-6 footer-links">
-             <!-- <h4>Useful Links</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">About us</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Services</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Terms of service</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Privacy policy</a>
-                </li>
-              </ul>-->
+             <div class="col-lg-5 col-md-6 footer-links">            
             </div>
 
             <div class="col-lg-4 col-md-6 footer-links">
               <div class="social-links mt-5">
-                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                  <a href="#" class="facebook"
+                  <a href="https://twitter.com/girlsdoingtech" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="https://www.facebook.com/girls_doing_tech" class="facebook"
                     ><i class="bx bxl-facebook"></i
                   ></a>
-                  <a href="#" class="instagram"
+                  <a href="https://www.instagram.com/girlsdoingtech/" class="instagram"
                     ><i class="bx bxl-instagram"></i
-                  ></a>
-                  <a href="#" class="google-plus"
-                    ><i class="bx bxl-skype"></i
-                  ></a>
-                  <a href="#" class="linkedin"
+                  ></a>                 
+                  <a href="https://www.linkedin.com/company/girls-doing-tech" class="linkedin"
                     ><i class="bx bxl-linkedin"></i
                   ></a></div><br>
                   <p>Daha fazla bilgi için lütfen bizimle iletişime geçin. </p>
                 
-            </div> 
-
-            <!--  <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Our Newsletter</h4>
-              <p>
-              For more information, please contact us immediately. 
-              </p>
-               <form action="" method="post">
-                <input type="email" name="email" /><input
-                  type="submit"
-                  value="Subscribe"
-                />
-              </form> 
-            </div> -->
+            </div>           
           </div>
         </div>
       </div>
 
       <div class="container">
         <div class="copyright">
-        Tüm Hakları Saklıdır &copy; 2021 by <strong><span>GDT</span></strong
+        Tüm Hakları Saklıdır &copy; 2022 by <strong><span>GDT</span></strong
           >.
         </div>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
-         <!--  Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+
         </div>
       </div>
     </footer>

@@ -36,8 +36,9 @@ $name1='';
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    
+    <link href="assets/img/logo11.jpeg" rel="icon" />
+    <link href="assets/img/logo11.jpeg" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
     <link
@@ -53,6 +54,10 @@ $name1='';
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link
       href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
       rel="stylesheet"
@@ -107,16 +112,53 @@ $name1='';
         <!-- .navbar -->
 
       <!-- Example single danger button -->
-<div class="btn-group">
+<!-- <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     اللغات
   </button>
   <div class="dropdown-menu">
     <a class="dropdown-item" a href="index.php">EN</a>
     <a class="dropdown-item" a href="indextr.php">TR</a>
+    ropdown-toggle1
+</div> -->
+<div class="dropdown-toggle dropdown-1">
+  <select name="forma" onchange="location = this.value;" class="forma">
+      <option value="indexar.php" hidden>AR</option>
+      <option value="index.php">EN</option>
+      <option value="indextr.php">TR</option>
+  </select>
 </div>
+</div>
+
+   <!-- ======= language bar ======= -->
+
+<!-- 
+   <div class="container-fluid h-100 bg-light">
+  
+  <div class="row">
+    <div class="col-12 text-center align-items-center justify-content-center" style="overflow: hidden;">
+      
+      
+    <select name="forma" onchange="location = this.value;">
+    <option value="indexar.php">ar</option>
+    <option value="index.php">EN<</option>
+ <option value="indextr.php">TR</option>
+
+</select>
+
+      
+    
+
+      
+    </div>
+  </div>
+</div> -->
+   <!-- ======= Hero Section ======= -->
+      
       </div>
+  
     </header>
+    
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
@@ -173,44 +215,33 @@ $name1='';
     </section>
     <!-- End Hero -->
 
-    <main id="main">
-       <!-- ======= About Section ======= -->
+    
+  <main id="main">
+    <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
             <img src="assets/img/about_us.png" class="img-fluid" alt="" />
           </div>
+          <div class="section-title">
+            <h2>من نحن</h2>
+            <p  style="text-align:center"></p>
+          </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            <h3>
+            <h3 style="text-align:center; font-size:30px;">
               GirlsDoingTech
             </h3>
-            <p class="fst-italic">
-              مجموعة من الفتيات قررن مشاركة شغفهن بالتكنولوجيا والحياة.
-              انضممنا إلى واحدة من أكثر المعسكرات التدريبية روعة في تطوير الويب </br>
-              <strong>Re:coded</strong> و <strong> مدرسة Flatiron </strong> </br>
-              لاكتساب
-              المعرفة المطلوبة ، ثم أنشأنا شركتنا الخاصة.
+
+            <p style="margin-top:30px;">
+              
+مجموعة من الفتيات قررنا مشاركة شغفنا بالتكنولوجيا والحياة. بعد أن أصبحنا زملاء الدراسة في المعسكر التدريبي  
+ قررنا أن نصبح شركاء وأنشأنا هذه المنصة لمشاركة معرفتنا 
+وخبرتنا في هذا المجال وإظهار للعالم أن فريقًا من الفتيات يمكن أن يكون جزءًا من عالم التكنولوجيا
+
             </p>
-            <ul>
-              <li>
-                <i class="ri-check-double-line"></i> لدينا كادر شامل يتقن العديد من مجالات تطوير المواقع: تصميم
-                الواجهات، البرمجة.
-              </li>
-              <li>
-                <i class="ri-check-double-line"></i> نواكب دائما أحدث التقنيات لنضمن أفضل أداء للمواقع الالكترونية
-                لعملائنا.
-              </li>
-              <li>
-                <i class="ri-check-double-line"></i> فريقنا من جنسيات مختلفة لنقدم الخدمة الافضل في البرمجة الاحترافية
-                للغات العربية والانجليزية والتركية.
-              </li>
-              <li>
-                <i class="ri-check-double-line"></i> نجعل رؤيتك حقيقة.
-              </li>
-            </ul>
-            <p>
-              Get in touch &#128103;&#127800;.
+                       <p>
+              إتصل بنا &#128103;&#127800;.
             </p>
           </div>
         </div>
@@ -219,7 +250,7 @@ $name1='';
     <!-- End About Section -->
 
     <!-- ======= Clients Section Slider ======= -->
-    <section id="clients" class="clients">
+    <!-- <section id="clients" class="clients">
       <div class="container" data-aos="zoom-in">
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
@@ -251,7 +282,7 @@ $name1='';
           <div class="swiper-pagination"></div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- End Clients Section -->
 
     <!-- ======= Features Section ======= -->
@@ -264,7 +295,7 @@ $name1='';
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
             <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-receipt"></i>
-              <h4>GDT</h4>
+              <h4>السرعة</h4>
               <p>
                 لدينا كادر شامل يتقن العديد من مجالات تطوير المواقع: تصميم
                 الواجهات، البرمجة.
@@ -272,7 +303,7 @@ $name1='';
             </div>
             <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-cube-alt"></i>
-              <h4>GDT</h4>
+              <h4>مواكبة أحدث التقنيات</h4>
               <p>
                 نواكب دائما أحدث التقنيات لنضمن أفضل أداء للمواقع الالكترونية
                 لعملائنا.
@@ -280,7 +311,7 @@ $name1='';
             </div>
             <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-images"></i>
-              <h4>GDT</h4>
+              <h4>تعدد اللغات</h4>
               <p>
                 فريقنا من جنسيات مختلفة لنقدم الخدمة الافضل في البرمجة الاحترافية
                 للغات العربية والانجليزية والتركية.
@@ -288,7 +319,7 @@ $name1='';
             </div>
             <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-shield"></i>
-              <h4>GDT</h4>
+              <h4>الجمالية</h4>
               <p>
                 نجعل رؤيتك حقيقة.
               </p>
@@ -299,99 +330,110 @@ $name1='';
     </section>
     <!-- End Features Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Check our Services</p>
+
+    
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>اطلع على خدماتنا</h2>
+            <p  style="text-align:center"></p>
+          </div>
+       <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="icon-box">
+              <div class="icon"><i class="bx bx-laptop"></i></div>
+              
+                <h4><a href="">تطوير واجهات الويب</a></h4>
+                <p>
+
+                  أول شيء يراه المستخدم عندما يدخل الى موقعك هو هذا الجزء لذلك نعيره الاهتمام والدقة ونحول نظرتك الى واقع هنا                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-minus-back"></i></div>
+                <h4><a href="">مطور الواجهات الخلفية</a></h4>
+                <p>
+                  هذا الجزء من الموقع هو من وراء الكواليس، هو ما يهتم بجعل الموقع اسرع والاهم من ذلك عملي للغاية                 </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-mobile"></i></div>
+                <h4><a href=""> تطبيقات الجوال</a></h4>
+                <p>
+                  عندما يعمل الموقع والتطبيق الهاتفي بنفس الجودة تعلم انك تفعل الشيء الصحيح. والشيء الصحيح هو التواصل معنا وسؤالنا عن ذلك لنعمل على موقعك الخاص وتطبيق الجوال على الحال
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="icon-box">  
+                <div class="icon"><i class="bx bxs-brush"></i></div>
+                <h4><a href="">تصميم واجهة المستخدم</a></h4>
+                <p>
+                  مواقع جميلة ومريحة للنظر وتسمح للمستخدمين بالتفاعل مع الصفحة بكل سلاسة وسهولة                 </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bxs-message-rounded-dots"></i></div>
+                <h4><a href="">لغات</a></h4>
+                <p>
+                  لاننا نتحدث 4 لغات لدينا القدرة لعمل مواقع بعدة لغات وايصال الفكرة للمستخدمين باللغة التي يعرفونهاويفهمونها بشكل جيد                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                <h4><a href="">عروض تقديمية</a></h4>
+                <p>
+                  نعمل ايضا على عمل عروض تقديمية على باوربوينت لنقدم فكرة واضحة عن موقعكم في اقصر وقت  </p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>
-                Voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
-            data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
-            data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">Dele cardo</a></h4>
-              <p>
-                Quis consequatur saepe eligendi voluptatem consequatur dolor
-                consequuntur
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Divera don</a></h4>
-              <p>
-                Modi nostrum vel laborum. Porro fugit error sit minus sapiente
-                sit aspernatur
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Services Section -->
+      </section> 
+      <!-- End Services Section -->
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
       <div class="container" data-aos="zoom-in">
         <div class="text-center">
-          <h3>Call To Action</h3>
+          <h3>  للحصول على احسن العروض اتصل بنا</h3>
           <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
+          نصنع الأفكار وننفذها بأساليب احترافية، نعزز التواجد الرقمي وندعم رؤيتكم بخدمات احترافية
+           نجعلك تشاهد فكرتك منذ مولدها خطوة بخطوة وحتى انطلاقها بين كبار المشاريع المنافسة، نطمح لمساعدتك ودعمك والوصول لرضاك
           </p>
-          <a class="cta-btn" href="#">Call To Action</a>
+          <a class="cta-btn" href="https://wa.me/905510831183?text=hello%20i%20have%20question%20of%20your%20service%20can%20you%20help%20me"> اتصل بنا الأن</a> 
         </div>
       </div>
     </section>
@@ -402,8 +444,8 @@ $name1='';
 <section id="portfolio" class="portfolio">
   <div class="container" data-aos="fade-up">
     <div class="section-title">
-      <h2>معرض أعمالنا</h2>
-      <p>هنا يمكنك الإطلّاع على أبرز أعمالنا</p>
+     
+      <h2>الإطلّاع على أبرز أعمالنا</h2><br>
     </div>
 
     <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -429,6 +471,7 @@ $name1='';
             alt=""
           />
           <div class="portfolio-info">
+            
             <h4>موقع تعريفي لمنظمة صحية</h4>
             <p>.متاح بثلاث لغات</p>
             <p>.متناسق مع جميع أحجام الشاشات</p>
@@ -565,7 +608,7 @@ $name1='';
     <!-- End Portfolio Section -->
 
     <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
+   <!--  <section id="counts" class="counts">
       <div class="container" data-aos="fade-up">
         <div class="row no-gutters">
           <div class="
@@ -634,15 +677,15 @@ $name1='';
                 </div>
               </div>
             </div>
-            <!-- End .content-->
+         
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- End Counts Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+   <!--  <section id="testimonials" class="testimonials">
       <div class="container" data-aos="zoom-in">
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
@@ -661,7 +704,7 @@ $name1='';
                 </p>
               </div>
             </div>
-            <!-- End testimonial item -->
+           
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -678,7 +721,7 @@ $name1='';
                 </p>
               </div>
             </div>
-            <!-- End testimonial item -->
+          
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -694,7 +737,7 @@ $name1='';
                 </p>
               </div>
             </div>
-            <!-- End testimonial item -->
+            
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -711,7 +754,6 @@ $name1='';
                 </p>
               </div>
             </div>
-            <!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -728,27 +770,28 @@ $name1='';
                 </p>
               </div>
             </div>
-            <!-- End testimonial item -->
+       
           </div>
           <div class="swiper-pagination"></div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- End Testimonials Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
+       <!-- ======= Team Section ======= -->
+       <section id="team" class="team">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2> فريقنا</h2>
-          <p>تعرف على فريقنا</p>
+           
+           <h2>تعرف على فريقنا</h2>
         </div>
 
         <div class="row">
           <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/team/team-11.jfif" class="img-fluid" alt="" /><br>
                 <div class="social">
                   <a href="https://github.com/rashaabdulrazzak"><i class="bi bi-github"></i></a>
                   <a href="https://www.linkedin.com/in/rasha-abdulrazzak"><i class="bi bi-linkedin"></i></a>
@@ -757,7 +800,7 @@ $name1='';
               </div>
               <div class="member-info">
                 <h4> رشا عبد الرزاق</h4>
-                <span>مبرمجة </span>
+                <span >مبرمجة </span>
               </div>
             </div>
           </div>
@@ -765,7 +808,7 @@ $name1='';
           <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/team/team-66.jfif" class="img-fluid" alt="" />
                 <div class="social">
                   <a href=""><i class="bi bi-github"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
@@ -782,7 +825,7 @@ $name1='';
           <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/team/team-88.jfif" class="img-fluid" alt="" />
                 <div class="social">
                   <a href="https://github.com/Lobana-sky"><i class="bi bi-github"></i></a>
                   <a href="https://www.linkedin.com/in/lobana-alarabi-38470b199/"><i class="bi bi-linkedin"></i></a>
@@ -799,7 +842,7 @@ $name1='';
           <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="400">
               <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/team/team-55.jpg" class="img-fluid" alt="" />
                 <div class="social">
                   <a href="https://github.com/manelurki"><i class="bi bi-github"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
@@ -815,7 +858,7 @@ $name1='';
           <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="400">
               <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/team/team-44.jfif" class="img-fluid" alt="" />
                 <div class="social">
                   <a href="https://github.com/yvvsra"><i class="bi bi-github"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
@@ -828,17 +871,40 @@ $name1='';
               </div>
             </div>
           </div>
-        </div>
+          <!-- <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="400">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/team-4.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>زينب  </h4>
+                  <span>مبرمجة</span>
+                </div>
+              </div>
+            </div>
+        </div> -->
       </div>
     </section>
     <!-- End Team Section -->
+
 
 
       <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact" class="ltr">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Contact Us</h2>
+            <h2>إتصل بنا</h2>
             
           </div>
 
@@ -855,26 +921,42 @@ $name1='';
             <div class="col-lg-4">
               <div class="info">
                 <div class="address">
+                <a href="mailto:info@girlsdoingtech.com">
                 <i class="bi bi-envelope"></i>
                   <h4>البريد الالكتروني:</h4>
-                  <p>girlsdoingtech@gmail.com</p>
+                  <p>info@girlsdoingtech.com</p>
+</a>
                 </div>
-
+                <div class="whatsapp">
+                <a href="https://wa.me/905510831183?text=hello%20i%20have%20question%20of%20your%20service%20can%20you%20help%20me">
+                <i class="bi bi-whatsapp"></i>
+                  <h4>الواتس اب:</h4>
+                  <p>83 11 083 551 90+</p>
+                </a>
+                
+                </div>
                 <div class="email">
-                <i class="bi bi-instagram"></i>
+                  <a href="https://www.instagram.com/girlsdoingtech/">
+                  <i class="bi bi-instagram"></i>
                   <h4>الأنستجرام:</h4>
                   <p>girlsdoingtech</p>
+                  </a>
+               
                 </div>
 
                 <div class="phone">
+                <a href="https://www.facebook.com/girls_doing_tech">
                 <i style="float: right;" class="bi bi-facebook"></i>
-                  <h4>الفايسبوك:</h4>
+                  <h4>الفيسبوك:</h4>
                   <p>girls_doing_tech</p>
+                  </a>
                 </div>
                 <div class="phone">
+                <a href="https://twitter.com/girlsdoingtech">
                 <i class="bi bi-twitter"></i>
                   <h4>تويتر:</h4>
                   <p>girlsdoingtech</p>
+                  </a>
                 </div>
               </div>
               
@@ -910,7 +992,7 @@ $name1='';
                   </div>
                 </div>
                <!---------->
-               <br>
+               
                <div class="row">
                 <div class="col-md-6 form-group">
                   <input
@@ -994,69 +1076,37 @@ $name1='';
             <div class="col-lg-3 col-md-6">
               <div class="footer-info">
                 <br>
-                <br><h3><span>.</span>GDT</h3>
+                <br><h3><span></span>GDT</h3>
                 <p>
                  
-                  <strong> البريد الإلكتروني : </strong> girlsdoingtech@gmail.com<br />
+                  <strong> البريد الإلكتروني : </strong> info@girlsdoingtech.com<br />
                 </p>
                 
               </div>
             </div>
 
              <div class="col-lg-5 col-md-6 footer-links">
-             <!-- <h4>Useful Links</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">About us</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Services</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Terms of service</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Privacy policy</a>
-                </li>
-              </ul>-->
+            
             </div>
 
             <div class="col-lg-4 col-md-6 footer-links">
               <div class="social-links mt-5">
-                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                  <a href="#" class="facebook"
+                  <a href="https://twitter.com/girlsdoingtech" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="https://www.facebook.com/girls_doing_tech" class="facebook"
                     ><i class="bx bxl-facebook"></i
                   ></a>
-                  <a href="#" class="instagram"
+                  <a href="https://www.instagram.com/girlsdoingtech/" class="instagram"
                     ><i class="bx bxl-instagram"></i
                   ></a>
-                  <a href="#" class="google-plus"
-                    ><i class="bx bxl-skype"></i
-                  ></a>
-                  <a href="#" class="linkedin"
+                  
+                  <a href="https://www.linkedin.com/company/girls-doing-tech" class="linkedin"
                     ><i class="bx bxl-linkedin"></i
                   ></a></div><br>
-                  <p>يرجى تعبئة النموذج أعلاه في حال رغبتم في معرفة المزيد عن  خدماتنا. كما يمكنكم أيضاً التواصل معنا عبر صفحات التواصل الاجتماعي </p>
+                  <p style=" font-size:16px !important;">يرجى تعبئة النموذج أعلاه في حال رغبتم في معرفة المزيد عن  خدماتنا. كما يمكنكم أيضاً التواصل معنا عبر صفحات التواصل الاجتماعي </p>
                 
             </div> 
 
-            <!--  <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Our Newsletter</h4>
-              <p>
-              For more information, please contact us immediately. 
-              </p>
-               <form action="" method="post">
-                <input type="email" name="email" /><input
-                  type="submit"
-                  value="Subscribe"
-                />
-              </form> 
-            </div> -->
+            
           </div>
         </div>
       </div>

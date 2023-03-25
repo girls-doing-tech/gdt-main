@@ -36,8 +36,8 @@ $name1='';
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="assets/img/logo11.jpeg" rel="icon" />
+    <link href="assets/img/logo11.jpeg" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
     <link
@@ -79,9 +79,7 @@ $name1='';
   <body>
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
-      <div
-        class="container d-flex align-items-center justify-content-lg-between"
-      >
+      <div class="container d-flex align-items-center justify-content-lg-between">
       <!--   <h1 class="logo me-auto me-lg-0">
           <a href="index.html">Gp<span>.</span></a>
         </h1> -->
@@ -105,15 +103,13 @@ $name1='';
         <!-- .navbar -->
 
       <!-- Example single danger button -->
-<div class="btn-group">
-  <button type="button" class="btn btn-light dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Language
-  </button>
-  <div class="dropdown-menu">
-    
-    <a class="dropdown-item" a href="indexar.php">AR</a>
-    <a class="dropdown-item" a href="indextr.php">TR</a>
-</div>
+      <div class="dropdown-toggle">
+          <select name="forma" onchange="location = this.value;" class="forma">
+            <option value="index.php" hidden>EN</option>
+            <option value="indextr.php">TR</option>
+            <option value="indexar.php">AR</option>
+          </select>
+      </div>
       </div>
     </header>
     <!-- End Header -->
@@ -127,7 +123,7 @@ $name1='';
           data-aos-delay="150"
         >
           <div class="col-xl-6 col-lg-8">
-            <h1>GİRLS DOİNG TECH<!-- <span><i class="bi bi-laptop"></i></span> --></h1>
+            <h1>GİRLS DOING TECH<!-- <span><i class="bi bi-laptop"></i></span> --></h1>
             <h2>We make our vision real</h2>
           </div>
         </div>
@@ -145,7 +141,7 @@ $name1='';
           </div>
           <div class="col-xl-2 col-md-4">
             <div class="icon-box">
-            <i  class="bi bi-alarm"></i>
+            <i class="bi bi-alarm"></i>
               <h3><a href="">Rapidity</a></h3>
             </div>
           </div>
@@ -157,7 +153,7 @@ $name1='';
           </div>
           <div class="col-xl-2 col-md-4">
             <div class="icon-box">
-              <i  class="ri-paint-brush-line"></i>
+              <i class="ri-paint-brush-line"></i>
               <h3><a href="">Accessibility</a></h3>
             </div>
           </div>
@@ -172,219 +168,47 @@ $name1='';
     </section>
     <!-- End Hero -->
 
-    <main id="main">
-       <!-- ======= About Section ======= -->
-       <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-        <div class="section-title">
-            <h2>About Us</h2>
-            
+    
+  <!-- End Hero -->
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about add-margin">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/about.png" class="img-fluid" alt="" />
           </div>
-          <div class="row">
-            <div
-              class="col-lg-6 order-1 order-lg-2"
-              data-aos="fade-left"
-              data-aos-delay="100"
-            >
-              <img src="assets/img/about_us.png" class="img-fluid" alt="" />
-            </div>
-            <div
-              class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
-              data-aos="fade-right"
-              data-aos-delay="100"
-            >
-              <h3>GirlsDoingTech</h3>
-              <p class="fst-italic">
-                Group of girls that decided to share their passion for
-                technology and life. We joined one of the most incredible
-                Bootcamp in the web development <strong>Re:coded</strong> and
-                <strong>Flatiron school</strong> to gain the needed knowledge,
-                and then we established our startup.
-              </p>
-              <ul>
-                <li>
-                  <i class="ri-check-double-line"></i> We have many skills
-                  covering each side of web development, from design, front end,
-                  and backend development.
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i> We work on the new
-                  frameworks on each technology that guarantee the best
-                  performance for the websites that we build.
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i> We are from different
-                  nationalities, which means we will offer professional
-                  translation for three languages: Arabic, English, and Turkish.
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i> We make your vision come
-                  to reality.
-                </li>
-              </ul>
-              <p>Get in touch &#128103;&#127800;.</p>
-            </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <h3>GirlsDoingTech</h3>
+            <p>
+            A group of girls that decided to share their passion for technology and life. 
+            After being classmates in a bootcamp.  We decided to become partners in business and created this platform to share our knowledge, 
+            expertise in this field and show the world that a team of girls can be a part of the Tech World. 
+            </p>
+            <p>Get in touch &#128103;&#127800;.</p>
           </div>
         </div>
-      </section>
-      <!-- End About Section -->
+      </div>
+    </section>
+    <!-- End About Section -->
 
-
-     <!-- ======= Clients Section Slider ======= -->
-     <section id="clients" class="clients">
-        <div class="container" data-aos="zoom-in">
-          <div class="clients-slider swiper">
-            <div class="swiper-wrapper align-items-center">
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <!-- End Clients Section -->
-
-      <!-- ======= Features Section ======= -->
-<!-- ======= Features Section ======= -->
-<section id="features" class="features">
-        <div class="container" data-aos="fade-up">
-        <div class="section-title">
-            <h2>Features</h2>
-            
-          </div>
-          <div class="row">
-            <div
-              class="image col-lg-6"
-              style="background-image: url('assets/img/about_us_feature.jpg')"
-              data-aos="fade-right"
-            ></div>
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-              <div
-                class="icon-box mt-5 mt-lg-0"
-                data-aos="zoom-in"
-                data-aos-delay="150"
-              >
-                <i class="bx bx-receipt"></i>
-                <h4>GDT</h4>
-                <p>
-                  We have many skills covering each side of web development,
-                  from design, front end, and backend development.
-                </p>
-              </div>
-              <div
-                class="icon-box mt-5"
-                data-aos="zoom-in"
-                data-aos-delay="150"
-              >
-                <i class="bx bx-cube-alt"></i>
-                <h4>GDT</h4>
-                <p>
-                  We work on the new frameworks on each technology that
-                  guarantee the best performance for the websites that we build.
-                </p>
-              </div>
-              <div
-                class="icon-box mt-5"
-                data-aos="zoom-in"
-                data-aos-delay="150"
-              >
-                <i class="bx bx-images"></i>
-                <h4>GDT</h4>
-                <p>
-                  We are from different nationalities, which means we will offer
-                  professional translation for three languages: Arabic, English,
-                  and Turkish.
-                </p>
-              </div>
-              <div
-                class="icon-box mt-5"
-                data-aos="zoom-in"
-                data-aos-delay="150"
-              >
-                <i class="bx bx-shield"></i>
-                <h4>GDT</h4>
-                <p>We make your vision come to reality.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Features Section -->
-
-      <!-- ======= Services Section ======= -->
-      <section id="services" class="services">
+ <!-- ======= Services Section ======= -->
+ <section id="services" class="services">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Check our Services</h2>
-           
           </div>
-
-          <div class="row">
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch"
+          <div class="row add-margin">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch"
               data-aos="zoom-in"
               data-aos-delay="100"
             >
               <div class="icon-box">
-                <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4><a href="">Lorem Ipsum</a></h4>
+              <div class="icon"><i class="bx bx-laptop"></i></div>
+              
+                <h4><a href="">Frontend Development</a></h4>
                 <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
+                  The first thing users see when they open your page - this here is the part where you get to see your vision. 
                 </p>
               </div>
             </div>
@@ -395,11 +219,10 @@ $name1='';
               data-aos-delay="200"
             >
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-file"></i></div>
-                <h4><a href="">Sed ut perspiciatis</a></h4>
+                <div class="icon"><i class="bx bx-minus-back"></i></div>
+                <h4><a href="">Backend Development</a></h4>
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore
+                  The part of the website that is behind the scenes. We can make your website smoother, faster and most important - F U N C T I O N A L!
                 </p>
               </div>
             </div>
@@ -410,11 +233,10 @@ $name1='';
               data-aos-delay="300"
             >
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4><a href="">Magni Dolores</a></h4>
+                <div class="icon"><i class="bx bx-mobile"></i></div>
+                <h4><a href="">Mobile Applications</a></h4>
                 <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia
+                  When your website and mobile application run as smoothly as each other, that's when you know you're doing the right thing. The right thing here is to contact us and ask about this.
                 </p>
               </div>
             </div>
@@ -424,12 +246,11 @@ $name1='';
               data-aos="zoom-in"
               data-aos-delay="100"
             >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-world"></i></div>
-                <h4><a href="">Nemo Enim</a></h4>
+              <div class="icon-box">  
+                <div class="icon"><i class="bx bxs-brush"></i></div>
+                <h4><a href="">UI/UX design</a></h4>
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis
+                  Aesthetically pleasing websites that will allow your users to interact with your page smoothly.
                 </p>
               </div>
             </div>
@@ -440,11 +261,10 @@ $name1='';
               data-aos-delay="200"
             >
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-slideshow"></i></div>
-                <h4><a href="">Dele cardo</a></h4>
+                <div class="icon"><i class="bx bxs-message-rounded-dots"></i></div>
+                <h4><a href="">Languages</a></h4>
                 <p>
-                  Quis consequatur saepe eligendi voluptatem consequatur dolor
-                  consequuntur
+                  Because we speak over 4 different languages, we have the ability to create websites with multiple languages that can reach your audiences with the language they are most comfortable with. 
                 </p>
               </div>
             </div>
@@ -455,45 +275,42 @@ $name1='';
               data-aos-delay="300"
             >
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-arch"></i></div>
-                <h4><a href="">Divera don</a></h4>
+                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                <h4><a href="">Presentations</a></h4>
                 <p>
-                  Modi nostrum vel laborum. Porro fugit error sit minus sapiente
-                  sit aspernatur
+                  We create simple and creative presentations that give an idea about your website in a short time.
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </section>
+ </section> 
       <!-- End Services Section -->
 
       <!-- ======= Cta Section ======= -->
-      <section id="cta" class="cta">
-        <div class="container" data-aos="zoom-in">
-          <div class="text-center">
-            <h3>Call To Action</h3>
-            <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
-            </p>
-            <a class="cta-btn" href="#">Call To Action</a>
-          </div>
+   <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="text-center">
+          <h3> To get the best offers, contact us</h3>
+          <p>
+          We create ideas and implement them in professional ways. We enhance the digital presence and
+           support your vision with professional services. We make you see your idea from its inception step by step until its
+           launch among the major competing projects. We aspire to help you, support you, and reach your satisfaction.
+          </p>
+          <a class="cta-btn" href="https://wa.me/905510831183?text=hello%20i%20have%20question%20of%20your%20service%20can%20you%20help%20me"> Contact us</a> 
         </div>
-      </section>
-      <!-- End Cta Section -->
+      </div>
+    </section>
+    <!-- End Cta Section -->
 
       <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio">
+    <!-- <section id="portfolio" class="portfolio">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Check our Portfolio</h2>
-           
+            <h2>Check our Portfolio</h2>           
           </div>
 
-          <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="row add-margin" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-12 d-flex justify-content-center">
               <ul id="portfolio-flters">
                 <li data-filter="*" class="filter-active">All</li>
@@ -547,9 +364,8 @@ $name1='';
                 />
                 <div class="portfolio-info">
                   <h4>Real estate website</h4>
-                  <p>Contains articles updated using Wordpress.</p>
-                  <p>Responsive</p>
-                  <p>Wordpress CMS</p>
+                  <p>Contains articles updated using Wordpress, Responsive, Wordpress CMS</p>
+                
                   <div class="portfolio-links">
                     <a
                       href="assets/img/portfolio/newest.png"
@@ -565,7 +381,62 @@ $name1='';
                 </div>
               </div>
             </div>
-
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/funding_project.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Let's Support</h4>
+                  <p>A Web3 dapp for raising funds for personal projects </p>
+                  <p>React, Near Protocol,Near-api-js</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/funding_project.png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Web 3"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://let-us-support.onrender.com/"
+                      title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/gallery_app.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Gallery App</h4>
+                  <p>A landing page for an application that shows the gallery and its artist </p>
+                  <p>React, Bulma</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/gallery_big.png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="App 2"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://rashaabdulrazzak.github.io/GalleryArt/"
+                      title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
@@ -594,7 +465,34 @@ $name1='';
                 </div>
               </div>
             </div>
-
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/muhtar_sweet.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Muhtar Sweet</h4>
+                  <p>A Website for sweet shop </p>
+                  <p>React, Redux</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/muhtar_sweet.png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Web 2"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://lobana-sky.github.io/yemek/"
+                      title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
@@ -623,28 +521,57 @@ $name1='';
                 </div>
               </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+           
+          
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/xo.png"
+                  src="assets/img/portfolio/todo_flutter.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>Tic-Tac-Toe</h4>
-                  <p>Let you return to your previous moves.</p>
-                  <p>React, Redux</p>
+                  <h4>To do app</h4>
+                  <p>A mobile app to add to do list and delete the finished one </p>
+                  <p>Flutter</p>
                   <div class="portfolio-links">
                     <a
-                      href="assets/img/portfolio/xo.png"
+                      href="assets/img/portfolio/todo_flutter.png"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
-                      title="Web 2"
+                      title="To do app flutter"
                       ><i class="bx bx-plus"></i
                     ></a>
                     <a
-                      href="https://tictactoe-rasha.netlify.app/"
+                      href="https://starlit-macaron-52ba2e.netlify.app/#/"
+                      title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/gallery_mobile.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Gallery app</h4>
+                  <p>A mobile app to list your favorite collections of art  </p>
+                  <p>Glide</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/gallery_mobile.png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="List your favorite collections of art "
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://alive-industry-0188.glideapp.io/dl/d8fc49"
                       title="More Details"
                       ><i class="bx bx-link"></i
                     ></a>
@@ -654,230 +581,11 @@ $name1='';
             </div>
           </div>
         </div>
-      </section>
+    </section> -->
       <!-- End Portfolio Section -->
 
-      <!-- ======= Counts Section ======= -->
-      <section id="counts" class="counts">
-        <div class="container" data-aos="fade-up">
-          <div class="row no-gutters">
-            <div
-              class="
-                image
-                col-xl-5
-                d-flex
-                align-items-stretch
-                justify-content-center justify-content-lg-start
-              "
-              data-aos="fade-right"
-              data-aos-delay="100"
-            ></div>
-            <div
-              class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch"
-              data-aos="fade-left"
-              data-aos-delay="100"
-            >
-              <div class="content d-flex flex-column justify-content-center">
-                <h3>Voluptatem dignissimos provident quasi</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Duis aute irure dolor in reprehenderit
-                </p>
-                <div class="row">
-                  <div class="col-md-6 d-md-flex align-items-md-stretch">
-                    <div class="count-box">
-                      <i class="bi bi-emoji-smile"></i>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="65"
-                        data-purecounter-duration="2"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Happy Clients</strong> consequuntur voluptas
-                        nostrum aliquid ipsam architecto ut.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6 d-md-flex align-items-md-stretch">
-                    <div class="count-box">
-                      <i class="bi bi-journal-richtext"></i>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="85"
-                        data-purecounter-duration="2"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Projects</strong> adipisci atque cum quia
-                        aspernatur totam laudantium et quia dere tan
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6 d-md-flex align-items-md-stretch">
-                    <div class="count-box">
-                      <i class="bi bi-clock"></i>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="35"
-                        data-purecounter-duration="4"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Years of experience</strong> aut commodi quaerat
-                        modi aliquam nam ducimus aut voluptate non vel
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6 d-md-flex align-items-md-stretch">
-                    <div class="count-box">
-                      <i class="bi bi-award"></i>
-                      <span
-                        data-purecounter-start="0"
-                        data-purecounter-end="20"
-                        data-purecounter-duration="4"
-                        class="purecounter"
-                      ></span>
-                      <p>
-                        <strong>Awards</strong> rerum asperiores dolor alias quo
-                        reprehenderit eum et nemo pad der
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End .content-->
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Counts Section -->
-
-      <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials">
-        <div class="container" data-aos="zoom-in">
-          <div
-            class="testimonials-slider swiper"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-1.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec
-                    porttitora entum suscipit rhoncus. Accusantium quam,
-                    ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                    risus at semper.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-2.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse
-                    labore quem cillum quid cillum eram malis quorum velit fore
-                    eram velit sunt aliqua noster fugiat irure amet legam anim
-                    culpa.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-3.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim
-                    sint quorum nulla quem veniam duis minim tempor labore quem
-                    eram duis noster aute amet eram fore quis sint minim.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-4.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa
-                    multos export minim fugiat minim velit minim dolor enim duis
-                    veniam ipsum anim magna sunt elit fore quem dolore labore
-                    illum veniam.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-5.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure
-                    aliqua veniam tempor noster veniam enim culpa labore duis
-                    sunt culpa nulla illum cillum fugiat legam esse veniam culpa
-                    fore nisi cillum quid.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <!-- End Testimonials Section -->
-
       <!-- ======= Team Section ======= -->
-      <section id="team" class="team">
+    <section id="team" class="team">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Check our Team</h2>
@@ -885,14 +593,10 @@ $name1='';
           </div>
 
           <div class="row">
-            <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="col-lg-2 col-md-6 align-items-stretch">
               <div class="member" data-aos="fade-up" data-aos-delay="100">
                 <div class="member-img">
-                  <img
-                    src="assets/img/team/team-1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                <!-- <img src="assets/img/team/team-11.jfif" class="img-fluid" alt="" /><br> -->
                   <div class="social">
                     <a href="https://github.com/rashaabdulrazzak"
                       ><i class="bi bi-github"></i
@@ -906,20 +610,17 @@ $name1='';
                   </div>
                 </div>
                 <div class="member-info">
-                  <h4>Rasha Abdulrazzaq</h4>
-                  <span>Fullstack Developer</span>
+                  <h4>Rasha Abdulrazzak</h4>
+                  <b><span>CEO Founder</span></b>
+                  <span>Full stack developer</span>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="col-lg-2 col-md-6  align-items-stretch">
               <div class="member" data-aos="fade-up" data-aos-delay="200">
                 <div class="member-img">
-                  <img
-                    src="assets/img/team/team-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                <!-- <img src="assets/img/team/team-66.jfif" class="img-fluid" alt="" /> -->
                   <div class="social">
                     <a href="https://samaromm.github.io/samarspace/#/"
                       ><i class="bi bi-github"></i
@@ -932,19 +633,16 @@ $name1='';
                 </div>
                 <div class="member-info">
                   <h4>Samar Omar</h4>
-                  <span>Fullstack Developer</span>
+                  <span>CEO Founder</span>
+                  <span>Full stack developer</span>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="col-lg-2 col-md-6  align-items-stretch">
               <div class="member" data-aos="fade-up" data-aos-delay="300">
                 <div class="member-img">
-                  <img
-                    src="assets/img/team/team-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                <!-- <img src="assets/img/team/team-88.jfif" class="img-fluid" alt="" /> -->
                   <div class="social">
                     <a href="https://github.com/Lobana-sky"
                       ><i class="bi bi-github"></i
@@ -958,19 +656,16 @@ $name1='';
                 </div>
                 <div class="member-info">
                   <h4>Lobana Alarabi</h4>
-                  <span>Fullstack Developer</span>
+                  <span>CEO Founder</span>
+                  <span>Full stack developer</span>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="col-lg-2 col-md-6  align-items-stretch">
               <div class="member" data-aos="fade-up" data-aos-delay="400">
                 <div class="member-img">
-                  <img
-                    src="assets/img/team/team-4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                <!-- <img src="assets/img/team/team-55.jpg" class="img-fluid" alt="" /> -->
                   <div class="social">
                     <a href="https://github.com/manelurki"
                       ><i class="bi bi-github"></i
@@ -981,18 +676,15 @@ $name1='';
                 </div>
                 <div class="member-info">
                   <h4>Menel Turki</h4>
-                  <span>Fullstack Developer</span>
+                  <span>CEO Founder</span>
+                  <span>Full stack developer</span>
                 </div>
               </div>
             </div>
-            <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="col-lg-2 col-md-6  align-items-center">
               <div class="member" data-aos="fade-up" data-aos-delay="400">
                 <div class="member-img">
-                  <img
-                    src="assets/img/team/team-4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                <!-- <img src="assets/img/team/team-44.jfif" class="img-fluid" alt="" /> -->
                   <div class="social">
                     <a href="https://github.com/yvvsra"
                       ><i class="bi bi-github"></i
@@ -1003,68 +695,94 @@ $name1='';
                 </div>
                 <div class="member-info">
                   <h4>Yusra Atta</h4>
-                  <span>Fullstack Developer</span>
+                  <span>CEO Founder</span>
+                  <span>Full stack developer</span>
                 </div>
               </div>
             </div>
+            <!-- <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="400">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/team-4.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Zeynep </h4>
+                  <span>Fullstack Developer</span>
+                </div>
+              </div>
+            </div> -->
           </div>
         </div>
-      </section>
+    </section>
       <!-- End Team Section -->
-      <!-- End Team Section -->
-
+    
       <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
+    <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Contact Us</h2>
             
           </div>
-
-          <div>
-            <!-- <iframe
-              style="border: 0; width: 100%; height: 270px"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-              frameborder="0"
-              allowfullscreen
-            ></iframe> -->
-          </div>
-
           <div class="row mt-5">
             <div class="col-lg-4">
               <div class="info">
                 <div class="address">
+                <a href="mailto:info@girlsdoingtech.com">
                 <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
-                  <p>girlsdoingtech@gmail.com</p>
+                  <p>info@girlsdoingtech.com</p>
+                  </a>
                 </div>
-
+                <div class="whatsapp">
+                <a href="https://wa.me/905510831183?text=hello%20i%20have%20question%20of%20your%20service%20can%20you%20help%20me">
+                <i class="bi bi-whatsapp"></i>
+                  <h4>whatsapp:</h4>
+                  <p>+90 551 083 11 83</p>
+                  </a>
+                </div>
                 <div class="email">
+                <a href="https://www.instagram.com/girlsdoingtech/">
                 <i class="bi bi-instagram"></i>
                   <h4>Instagram:</h4>
                   <p>girlsdoingtech</p>
+                  </a>
                 </div>
 
                 <div class="phone">
+                <a href="https://www.facebook.com/girls_doing_tech">
                 <i class="bi bi-facebook"></i>
                   <h4>Facebook:</h4>
                   <p>girls_doing_tech</p>
+                  </a>
                 </div>
                 <div class="phone">
+                <a href="https://twitter.com/girlsdoingtech">
                 <i class="bi bi-twitter"></i>
                   <h4>Twitter:</h4>
                   <p>girlsdoingtech</p>
+                </a>
                 </div>
               </div>
               
             </div>
 
             <div class="col-lg-8 mt-5 mt-lg-0">
-              <form
-                action="forms/contact.php "  onsubmit="alert('Thank you for getting in touch');" enctype="multipart/form-data"
-                method="post"
-                
-               
+              <form 
+                action="forms/contact.php "
+                onsubmit="alert('Thank you for getting in touch');" enctype="multipart/form-data"
+                method="post"           
+               class="php-email-form"
               >
                 <div class="row">
                   <div class="col-md-6 form-group">
@@ -1089,7 +807,7 @@ $name1='';
                   </div>
                 </div>
                <!---------->
-               <br>
+               
                <div class="row">
                 <div class="col-md-6 form-group">
                   <input
@@ -1112,9 +830,6 @@ $name1='';
                   />
                 </div>
               </div>
-             <!---------->
-
-
                 <div class="form-group mt-3">
                   <input
                     type="text"
@@ -1140,7 +855,7 @@ $name1='';
                   <div class="sent-message">
                     Your message has been sent. Thank you!
                   </div>
-                </div> --> <br>
+                </div> --> 
                 
                 <div class="text-center">
                   <button type="submit" class="button-43" name="submit">Send Message</button>
@@ -1149,7 +864,7 @@ $name1='';
                   <div>
                   
                   <?php echo "<p>".$name1."</p>";?>
-</div>
+            </div>
                 </div>
                
                 <div class="text-center">
@@ -1159,7 +874,7 @@ $name1='';
             </div>
           </div>
         </div>
-      </section>
+    </section>
       
       <!-- End Contact Section -->
     </main>
@@ -1172,76 +887,41 @@ $name1='';
           <div class="row">
             <div class="col-lg-3 col-md-6">
               <div class="footer-info">
-                <br><h3>GDT<span>.</span></h3>
+                <br><h3>GDT<span></span></h3>
                 <p>
                  
-                  <strong>Email:</strong> girlsdoingtech@gmail.com<br />
+                  <strong>Email:</strong> info@girlsdoingtech.com<br />
                 </p>
                 
               </div>
             </div>
 
              <div class="col-lg-5 col-md-6 footer-links">
-             <!-- <h4>Useful Links</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">About us</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Services</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Terms of service</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Privacy policy</a>
-                </li>
-              </ul>-->
+             
             </div>
 
             <div class="col-lg-4 col-md-6 footer-links">
               <div class="social-links mt-5">
-                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                  <a href="#" class="facebook"
+                  <a href="https://twitter.com/girlsdoingtech" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="https://www.facebook.com/girls_doing_tech" class="facebook"
                     ><i class="bx bxl-facebook"></i
                   ></a>
-                  <a href="#" class="instagram"
+                  <a href="https://www.instagram.com/girlsdoingtech/" class="instagram"
                     ><i class="bx bxl-instagram"></i
-                  ></a>
-                  <a href="#" class="google-plus"
-                    ><i class="bx bxl-skype"></i
-                  ></a>
-                  <a href="#" class="linkedin"
+                  ></a>               
+                  <a href="https://www.linkedin.com/company/girls-doing-tech" class="linkedin"
                     ><i class="bx bxl-linkedin"></i
                   ></a></div><br>
                   <p>For more information, please contact us immediately. </p>
                 
-            </div> 
-
-            <!--  <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Our Newsletter</h4>
-              <p>
-              For more information, please contact us immediately. 
-              </p>
-               <form action="" method="post">
-                <input type="email" name="email" /><input
-                  type="submit"
-                  value="Subscribe"
-                />
-              </form> 
-            </div> -->
+            </div>            
           </div>
         </div>
       </div>
 
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>GDT</span></strong
+        Copyright &copy;  <strong><span>GDT 2022</span></strong
           >. All Rights Reserved
         </div>
         <div class="credits">
