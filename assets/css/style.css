@@ -516,7 +516,7 @@ section {
   font-family: "Gill Sans";
   text-align: center;
 }
-.section-title h2::after {
+/* .section-title h2::after {
   content: "";
   width: 120px;
   height: 1px;
@@ -531,7 +531,7 @@ section {
   display: inline-block;
   background: #665CAB;
   margin: 4px 10px;
-}
+} */
 .section-title p {
   margin: 0;
   margin: 0;
@@ -1468,9 +1468,9 @@ section {
 }
 
 @media (max-width: 768px) {
-  .section-title h2::before , .section-title h2::after{
+  /* .section-title h2::before , .section-title h2::after{
     width: 30px;
-  }
+  } */
   .section-title h2{
     font-size: 16px;
     font-weight: 700;
