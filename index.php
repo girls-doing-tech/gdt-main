@@ -304,7 +304,7 @@ $name1='';
     <!-- End Cta Section -->
 
       <!-- ======= Portfolio Section ======= -->
-    <!-- <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Check our Portfolio</h2>           
@@ -465,27 +465,27 @@ $name1='';
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/muhtar_sweet.png"
+                  src="assets/img/portfolio/bmi_calc.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>Muhtar Sweet</h4>
-                  <p>A Website for sweet shop </p>
+                  <h4>BMI calculator</h4>
+                  <p>An app that takes the height, weight and age then gives you the result if you are over-weight or not </p>
                   <p>React, Redux</p>
                   <div class="portfolio-links">
                     <a
-                      href="assets/img/portfolio/muhtar_sweet.png"
+                      href="assets/img/portfolio/bmi-calc-demo.gif"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
-                      title="Web 2"
+                      title="Flutter"
                       ><i class="bx bx-plus"></i
                     ></a>
                     <a
-                      href="https://lobana-sky.github.io/yemek/"
+                      href="https://helpful-pixie-40319a.netlify.app/#/"
                       title="More Details"
                       ><i class="bx bx-link"></i
                     ></a>
@@ -526,24 +526,24 @@ $name1='';
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/todo_flutter.png"
+                  src="assets/img/portfolio/bitcoin_tracker.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>To do app</h4>
-                  <p>A mobile app to add to do list and delete the finished one </p>
+                  <h4>Bitcoin tracker</h4>
+                  <p>A crypto currency price checking app. You select the currency and it gives you the current value of related crypto currency </p>
                   <p>Flutter</p>
                   <div class="portfolio-links">
                     <a
-                      href="assets/img/portfolio/todo_flutter.png"
+                      href="assets/img/portfolio/bitcoin-flutter-demo.gif"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
-                      title="To do app flutter"
+                      title="Bitcoin tracker"
                       ><i class="bx bx-plus"></i
                     ></a>
                     <a
-                      href="https://starlit-macaron-52ba2e.netlify.app/#/"
+                      href="https://remarkable-phoenix-5f4f0d.netlify.app/#/"
                       title="More Details"
                       ><i class="bx bx-link"></i
                     ></a>
@@ -581,7 +581,7 @@ $name1='';
             </div>
           </div>
         </div>
-    </section> -->
+    </section>
       <!-- End Portfolio Section -->
 
       <!-- ======= Team Section ======= -->
