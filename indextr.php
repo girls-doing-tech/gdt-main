@@ -72,7 +72,7 @@ $name1='';
       <div
         class="container d-flex align-items-center justify-content-lg-between"
       >    
-        <a href="" class="logo me-auto me-lg-0"><img src="assets/img/logo3.png" alt="" class="img-fluid" width="100" height="70"></a>
+        <a href="" class="logo me-auto me-lg-0"><img src="assets/img/logo1.png" alt="" class="img-fluid" width="100" height="70"></a>
           <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
               <li><a class="nav-link scrollto active" href="#hero">Anasayfa</a></li>
@@ -215,7 +215,7 @@ $name1='';
       <section id="services" class="services">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Hizmetlerimiz</h2>
+            <h2>Hİzmetlerİmİz</h2>
           </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch"
@@ -324,20 +324,22 @@ $name1='';
       <!-- End Cta Section -->
 
       <!-- ======= Portfolio Section ======= -->
+      
       <section id="portfolio" class="portfolio">
-        <div class="container" data-aos="fade-up">
+      <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>PORTFÖYÜMÜZE GÖZ ATIN</h2>           
           </div>
           <div class="row" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-12 d-flex justify-content-center">
               <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">Hepsi</li>
-                <li data-filter=".filter-web">Websiteler</li>
-                <li data-filter=".filter-app">Mobile uygulamaları</li>
+                <li data-filter="*" class="filter-active">Hepsİ</li>
+                <li data-filter=".filter-web">Websİteler</li>
+                <li data-filter=".filter-app">Mobİle uygulamaları</li>
               </ul>
             </div>
           </div>
+
           <div
             class="row portfolio-container"
             data-aos="fade-up"
@@ -351,9 +353,12 @@ $name1='';
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>Sağlık kuruluşu web sitesi.</h4>
-                  <p>Responsive web tasarım & 3 dilde mevcuttur.</p>
+                <h4>Sağlık kuruluşu web sitesi.</h4>
+                  <p>Uyumlu & 3 dİl İçEREN BİR WEB SİTESİ.</p>
+                  
                   <p>React, Bootstrap</p>
+
+
                   <div class="portfolio-links">
                     <a
                       href="assets/img/portfolio/reach-ar.png"
@@ -372,6 +377,7 @@ $name1='';
                 </div>
               </div>
             </div>
+
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
@@ -380,9 +386,10 @@ $name1='';
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>Emlakçı sitesi</h4>
-                  <p>web site makaleler içerir , Wordpress, Responsive, Wordpress CMS</p>
-                 
+                <h4>Emlakçı sitesi</h4>
+                  <p>web sİte makaleler İçerİr , Wordpress, UYUMLU, Wordpress CMS</p>
+
+
                   <div class="portfolio-links">
                     <a
                       href="assets/img/portfolio/newest.png"
@@ -401,14 +408,71 @@ $name1='';
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
+                  src="assets/img/portfolio/funding_project.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Destek olalım</h4>
+                
+                  <p>KİŞİSEL PROJELERDE KAYNAK TOPLAMAK İÇİN BİR WEB3 DAPP</p> <p>(REACT, NEAR PROTOCOL, NEAR-API-JS)</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/funding_project.png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Web 3"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://let-us-support.onrender.com/"
+                      title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/gallery_app.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Galerİ Uygulaması</h4>
+                  <p>Galerİyİ ve sanatçısını gösteren bİr uygulama</p>
+                  <p>React, Bulma</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/gallery_big.png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="App 2"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://rashaabdulrazzak.github.io/GalleryArt/"
+                      title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
                   src="assets/img/portfolio/todo.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>Planlayıcı</h4>
-                  <p>Kaydolun, günlük planlarınızı ekleyin, düzenleyin ve silin</p>
-                  <p>React, Firebase</p>
+                <h4>Planlayıcı</h4>
+                  <p>Kaydolun, günlük planlarınızı ekleyİn, düzenleyİn ve sİlİn</p>
+                  <p>React, Fİrebase</p>
+
                   <div class="portfolio-links">
                     <a
                       href="assets/img/portfolio/todo.png"
@@ -426,6 +490,33 @@ $name1='';
                 </div>
               </div>
             </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/bmi_calc.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>VKI Hesaplayıcı</h4>
+                  <p>Boyunuzu, kİlonuzu ve yaşınızı gİrİnce vücut kiİle endeksİnİzİ gösteren uygulama. (React, Redux)</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/bmi-calc-demo.gif"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Flutter"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://helpful-pixie-40319a.netlify.app/#/"
+                      title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
@@ -434,9 +525,10 @@ $name1='';
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>Portfolyo</h4>
-                  <p>Eğlenceli ve responsive tasarım</p>
+                <h4>Portfolyo</h4>
+                  <p>Eğlencelİ ve UYUMLU tasarım</p>
                   <p>React</p>
+
                   <div class="portfolio-links">
                     <a
                       href="assets/img/portfolio/portfolio.png"
@@ -454,27 +546,60 @@ $name1='';
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+           
+          
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/xo.png"
+                  src="assets/img/portfolio/bitcoin_tracker.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                
+
+                <div class="portfolio-info">
+                  <h4>Bİtcoin takİbİ</h4>
+                  <p>Para bİrİmİnİ seçİyorsunuz ve o sİze İlgİlİ krİpto para bİrİmİnİn güncel değerİnİ verİyor, (Flutter)</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/bitcoin-flutter-demo.gif"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Bitcoin tracker"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://remarkable-phoenix-5f4f0d.netlify.app/#/"
+                      title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/gallery_mobile.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="portfolio-info">
-                  <h4>Tic-Tac-Toe</h4>
-                  <p>Önceki hamlelerinize dönmenize sağlar.</p>
-                  <p>React, Redux</p>
+                
+
+                  <h4>Galeri uygulaması</h4>
+                  <p>En sevdİğİnİz sanat koleksİyonlarını lİstelemek İçİn bİr mobİl uygulamaSI</p>
+                  
                   <div class="portfolio-links">
                     <a
-                      href="assets/img/portfolio/xo.png"
+                      href="assets/img/portfolio/gallery_mobile.png"
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
-                      title="Web 2"
+                      title="List your favorite collections of art "
                       ><i class="bx bx-plus"></i
                     ></a>
                     <a
-                      href="https://tictactoe-rasha.netlify.app/"
+                      href="https://alive-industry-0188.glideapp.io/dl/d8fc49"
                       title="More Details"
                       ><i class="bx bx-link"></i
                     ></a>
@@ -484,7 +609,7 @@ $name1='';
             </div>
           </div>
         </div>
-      </section>
+    </section>
       <!-- End Portfolio Section -->
       <!-- ======= Team Section ======= -->
       <section id="team" class="team">
