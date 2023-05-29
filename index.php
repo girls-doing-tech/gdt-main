@@ -774,13 +774,13 @@ $name1='';
               </div>
               
             </div>
-
+          
             <div class="col-lg-8 mt-5 mt-lg-0">
               <form 
-                action="forms/contact.php "
-                onsubmit="alert('Thank you for getting in touch');" enctype="multipart/form-data"
+                action="forms/contact.php " onsubmit="alert('Thank you for getting in touch');" 
+                enctype="multipart/form-data"
                 method="post"           
-               class="php-email-form"
+               
               >
                 <div class="row">
                   <div class="col-md-6 form-group">
