@@ -84,7 +84,7 @@ $name1='';
           <a href="index.html">Gp<span>.</span></a>
         </h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-         <a href="" class="logo me-auto me-lg-0"><img src="assets/img/logo3.png" alt="" class="img-fluid" width="100" height="70"></a>
+         <a href="" class="logo me-auto me-lg-0"><img src="assets/img/logo1.png" alt="" class="img-fluid" width="100" height="70"></a>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
@@ -474,8 +474,7 @@ $name1='';
                 />
                 <div class="portfolio-info">
                   <h4>BMI calculator</h4>
-                  <p>An app that takes the height, weight and age then gives you the result if you are over-weight or not </p>
-                  <p>React, Redux</p>
+                  <p>An app that takes the height, weight and age then gives you the result if you are over-weight or not (React, Redux)</p>
                   <div class="portfolio-links">
                     <a
                       href="assets/img/portfolio/bmi-calc-demo.gif"
@@ -532,8 +531,7 @@ $name1='';
                 />
                 <div class="portfolio-info">
                   <h4>Bitcoin tracker</h4>
-                  <p>A crypto currency price checking app. You select the currency and it gives you the current value of related crypto currency </p>
-                  <p>Flutter</p>
+                  <p>You select the currency and it gives you the current value of related crypto currency (Flutter)</p>
                   <div class="portfolio-links">
                     <a
                       href="assets/img/portfolio/bitcoin-flutter-demo.gif"
@@ -561,7 +559,7 @@ $name1='';
                 <div class="portfolio-info">
                   <h4>Gallery app</h4>
                   <p>A mobile app to list your favorite collections of art  </p>
-                  <p>Glide</p>
+                  
                   <div class="portfolio-links">
                     <a
                       href="assets/img/portfolio/gallery_mobile.png"

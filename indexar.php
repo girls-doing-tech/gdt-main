@@ -93,7 +93,7 @@ $name1='';
           <a href="index.html">Gp<span>.</span></a>
         </h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-         <a href="" class="logo1 me-auto me-lg-0"><img src="assets/img/logo3.png" alt="" class="img-fluid" width="100" height="70"></a>
+         <a href="" class="logo1 me-auto me-lg-0"><img src="assets/img/logo1.png" alt="" class="img-fluid" width="100" height="70"></a>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
