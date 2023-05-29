@@ -615,13 +615,15 @@ $name1='';
       <section id="team" class="team">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2> EKİBİMİZE GÖZ ATIN</h2>            
+            <h2>EKİBİMİZ</h2>
+            
           </div>
+
           <div class="row">
-            <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="col-lg-2 col-md-6 align-items-stretch">
               <div class="member" data-aos="fade-up" data-aos-delay="100">
                 <div class="member-img">
-                <img src="assets/img/team/team-11.jfif" class="img-fluid" alt="" /><br>
+                <!-- <img src="assets/img/team/team-11.jfif" class="img-fluid" alt="" /><br> -->
                   <div class="social">
                     <a href="https://github.com/rashaabdulrazzak"
                       ><i class="bi bi-github"></i
@@ -636,15 +638,16 @@ $name1='';
                 </div>
                 <div class="member-info">
                   <h4>Rasha Abdulrazzak</h4>
+                  <b><span>Kurucu & Ceo </span></b>
                   <span>Yazılımcı</span>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="col-lg-2 col-md-6  align-items-stretch">
               <div class="member" data-aos="fade-up" data-aos-delay="200">
                 <div class="member-img">
-                <img src="assets/img/team/team-66.jfif" class="img-fluid" alt="" />
+                <!-- <img src="assets/img/team/team-66.jfif" class="img-fluid" alt="" /> -->
                   <div class="social">
                     <a href="https://samaromm.github.io/samarspace/#/"
                       ><i class="bi bi-github"></i
@@ -657,15 +660,16 @@ $name1='';
                 </div>
                 <div class="member-info">
                   <h4>Samar Omar</h4>
+                  <span>Kurucu & Ceo </span>
                   <span>Yazılımcı</span>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="col-lg-2 col-md-6  align-items-stretch">
               <div class="member" data-aos="fade-up" data-aos-delay="300">
                 <div class="member-img">
-                <img src="assets/img/team/team-88.jfif" class="img-fluid" alt="" />
+                <!-- <img src="assets/img/team/team-88.jfif" class="img-fluid" alt="" /> -->
                   <div class="social">
                     <a href="https://github.com/Lobana-sky"
                       ><i class="bi bi-github"></i
@@ -679,15 +683,16 @@ $name1='';
                 </div>
                 <div class="member-info">
                   <h4>Lobana Alarabi</h4>
+                  <span>Kurucu & Ceo </span>
                   <span>Yazılımcı</span>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="col-lg-2 col-md-6  align-items-stretch">
               <div class="member" data-aos="fade-up" data-aos-delay="400">
                 <div class="member-img">
-                <img src="assets/img/team/team-55.jpg" class="img-fluid" alt="" />
+                <!-- <img src="assets/img/team/team-55.jpg" class="img-fluid" alt="" /> -->
                   <div class="social">
                     <a href="https://github.com/manelurki"
                       ><i class="bi bi-github"></i
@@ -698,14 +703,15 @@ $name1='';
                 </div>
                 <div class="member-info">
                   <h4>Menel Turki</h4>
+                  <span>Kurucu & Ceo </span>
                   <span>Yazılımcı</span>
                 </div>
               </div>
             </div>
-            <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="col-lg-2 col-md-6  align-items-center">
               <div class="member" data-aos="fade-up" data-aos-delay="400">
                 <div class="member-img">
-                <img src="assets/img/team/team-44.jfif" class="img-fluid" alt="" />
+                <!-- <img src="assets/img/team/team-44.jfif" class="img-fluid" alt="" /> -->
                   <div class="social">
                     <a href="https://github.com/yvvsra"
                       ><i class="bi bi-github"></i
@@ -716,6 +722,7 @@ $name1='';
                 </div>
                 <div class="member-info">
                   <h4>Yusra Atta</h4>
+                  <span>Kurucu & Ceo </span>
                   <span>Yazılımcı</span>
                 </div>
               </div>
@@ -744,7 +751,7 @@ $name1='';
             </div> -->
           </div>
         </div>
-      </section>
+    </section>
       <!-- End Team Section -->
 
       <!-- ======= Contact Section ======= -->
