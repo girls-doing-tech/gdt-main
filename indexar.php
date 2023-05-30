@@ -440,9 +440,11 @@ $name1='';
     <!-- End Cta Section -->
 
     <!-- ======= Portfolio Section ======= -->
+    
   <!-- ======= Portfolio Section ======= -->
+
 <section id="portfolio" class="portfolio">
-  <div class="container" data-aos="fade-up">
+<div class="container" data-aos="fade-up">
     <div class="section-title">
      
       <h2>الإطلّاع على أبرز أعمالنا</h2><br>
@@ -457,153 +459,274 @@ $name1='';
         </ul>
       </div>
     </div>
-
-    <div
-      class="row portfolio-container"
-      data-aos="fade-up"
-      data-aos-delay="200"
-    >
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <img
-            src="assets/img/portfolio/reach-ar.png"
-            class="img-fluid"
-            alt=""
-          />
-          <div class="portfolio-info">
-            
-            <h4>موقع تعريفي لمنظمة صحية</h4>
-            <p>.متاح بثلاث لغات</p>
-            <p>.متناسق مع جميع أحجام الشاشات</p>
-            <p>React, Bootstrap</p>
-            <div class="portfolio-links">
-              <a
-                href="assets/img/portfolio/reach-ar.png"
-                data-gallery="portfolioGallery"
-                class="portfolio-lightbox"
-                title="App 1"
-                ><i class="bx bx-plus"></i
-              ></a>
-              <a href="https://reach-health.com" title="Website Link" target=”_blank”
-                ><i class="bx bx-link"></i
-              ></a>
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/reach-en.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>موقع تعريفي لمنظمة صحية</h4>
+                  <p>متاح بثلاث لغات
+متناسق مع جميع أحجام الشاشات</p>
+                  <p>React, Bootstrap</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/reach-ar.png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="App 1"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://reach-health.com"
+                      title="Website Link"
+                      target="”_blank”"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <img
-            src="assets/img/portfolio/newest.png"
-            class="img-fluid"
-            alt=""
-          />
-          <div class="portfolio-info">
-            <h4>موقع تعريفي لشركة عقارية</h4>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/newest.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                <h4>موقع تعريفي لشركة عقارية</h4>
             <p>يضم مقالات يتم تحديثها بإستخدام ووردبريس</p>
             <p>متناسق مع جميع أحجام الشاشات</p>
             <p>Wordpress CMS</p>
-            <div class="portfolio-links">
-              <a
-                href="assets/img/portfolio/newest.png"
-                data-gallery="portfolioGallery"
-                class="portfolio-lightbox"
-                title="Web 3"
-                ><i class="bx bx-plus"></i
-              ></a>
-              <a href="https://newestrealty.com/" title="More Details"
-                ><i class="bx bx-link"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <img
-            src="assets/img/portfolio/todo.png"
-            class="img-fluid"
-            alt=""
-          />
-          <div class="portfolio-info">
-            <h4>موقع لجدولة الأعمال</h4>
+                
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/newest.png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Web 3"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a href="https://newestrealty.com/" title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/funding_project.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>دعنا ندعم</h4>
+                  <p>برنامج WEB3 DAPP لجمع الأموال للمشاريع الشخصية</p>
+                  <p>React, Near Protocol,Near-api-js</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/funding_project.png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Web 3"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://let-us-support.onrender.com/"
+                      title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/gallery_app.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>معرض إلكتروني</h4>
+                  <p>تطبيق يعرض المعرض وفنانه</p>
+                  <p>React, Bulma</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/gallery_big.png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="App 2"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://rashaabdulrazzak.github.io/GalleryArt/"
+                      title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/todo.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                 
+<h4>موقع لجدولة الأعمال</h4>
             <p>قم بتسجيل حساب و حفظ جداولك اليومية عليه</p>
             <p>React, Firebase</p>
-            <div class="portfolio-links">
-              <a
-                href="assets/img/portfolio/todo.png"
-                data-gallery="portfolioGallery"
-                class="portfolio-lightbox"
-                title="App 2"
-                ><i class="bx bx-plus"></i
-              ></a>
-              <a href="https://page-of-youth.web.app/" title="More Details"
-                ><i class="bx bx-link"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <img
-            src="assets/img/portfolio/portfolio.png"
-            class="img-fluid"
-            alt=""
-          />
-          <div class="portfolio-info">
-            <h4>ملف شخصي</h4>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/todo.png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="App 2"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://page-of-youth.web.app/"
+                      title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/bmi_calc.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>BMI calculator</h4>
+                  <p>-تطبيق يأخذ الطول والوزن والعمر ثم يمنحك النتيجة إذا كان وزنك زائدًا أم لا (React, Redux)</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/bmi-calc-demo.gif"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Flutter"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://helpful-pixie-40319a.netlify.app/#/"
+                      title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                <h4>ملف شخصي</h4>
             <p>موقع بتصميم مُبهج لعرض البيانات الشخصية</p>
             <p>متناسق مع كافة أحجام الشاشات</p>
             <p>React</p>
-            <div class="portfolio-links">
-              <a
-                href="assets/img/portfolio/portfolio.png"
-                data-gallery="portfolioGallery"
-                class="portfolio-lightbox"
-                title="Card 2"
-                ><i class="bx bx-plus"></i
-              ></a>
-              <a href="https://samaromm.github.io/samarspace/#/" title="More Details"
-                ><i class="bx bx-link"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <img
-            src="assets/img/portfolio/xo.png"
-            class="img-fluid"
-            alt=""
-          />
-          <div class="portfolio-info">
-            <h4>X O لعبة</h4>
-            <p>يحوي خاصيّة إضافية تمكنك من العودة للخطوات السابقة</p>
-            <p>React, Redux</p>
-            <div class="portfolio-links">
-              <a
-                href="assets/img/portfolio/xo.png"
-                data-gallery="portfolioGallery"
-                class="portfolio-lightbox"
-                title="Web 2"
-                ><i class="bx bx-plus"></i
-              ></a>
-              <a href="https://tictactoe-rasha.netlify.app/" title="More Details"
-                ><i class="bx bx-link"></i
-              ></a>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/portfolio.png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Card 2"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://samaromm.github.io/samarspace/#/"
+                      title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+          
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/bitcoin_tracker.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>تعقب البيتكوين</h4>
+                  <p>يمكنك تحديد العملة وتمنحك القيمة الحالية للعملات المشفرة ذات الصلة (Flutter)</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/bitcoin-flutter-demo.gif"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="Bitcoin tracker"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://remarkable-phoenix-5f4f0d.netlify.app/#/"
+                      title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/gallery_mobile.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>  معرض إلكتروني</h4>
+                  <p>تطبيق جوال لإدراج مجموعاتك الفنية المفضلة  </p>
+                  
+                  <div class="portfolio-links">
+                    <a
+                      href="assets/img/portfolio/gallery_mobile.png"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      title="List your favorite collections of art "
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                    <a
+                      href="https://alive-industry-0188.glideapp.io/dl/d8fc49"
+                      title="More Details"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 <!-- End Portfolio Section -->
     <!-- End Portfolio Section -->
 
@@ -778,100 +901,122 @@ $name1='';
     </section> -->
     <!-- End Testimonials Section -->
 
-    <!-- ======= Team Section ======= -->
-       <!-- ======= Team Section ======= -->
-       <section id="team" class="team">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-           
-           <h2>تعرف على فريقنا</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="assets/img/team/team-11.jfif" class="img-fluid" alt="" /><br>
-                <div class="social">
-                  <a href="https://github.com/rashaabdulrazzak"><i class="bi bi-github"></i></a>
-                  <a href="https://www.linkedin.com/in/rasha-abdulrazzak"><i class="bi bi-linkedin"></i></a>
-                  <a href="https://rashaabdulrazzak.github.io/my-profile/#/"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4> رشا عبد الرزاق</h4>
-                <span >مبرمجة </span>
-              </div>
-            </div>
+    <section id="team" class="team">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>فريقنا</h2>
+            
           </div>
 
-          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <img src="assets/img/team/team-66.jfif" class="img-fluid" alt="" />
-                <div class="social">
-                  <a href=""><i class="bi bi-github"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                  <a href=""><i class="bi bi-link-45deg"></i></a>
+          <div class="row">
+            <div class="col-lg-2 col-md-6 align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <div class="member-img">
+                <!-- <img src="assets/img/team/team-11.jfif" class="img-fluid" alt="" /><br> -->
+                  <div class="social">
+                    <a href="https://github.com/rashaabdulrazzak"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a href="https://www.linkedin.com/in/rasha-abdulrazzak"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                    <a href="https://rashaabdulrazzak.github.io/my-profile/#/"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>رشا عبد رزاق</h4>
+                  <b><span>CEO Founder</span></b>
+                  <span>مبرمجة</span>
                 </div>
               </div>
-              <div class="member-info">
-                <h4> سمر عمر</h4>
-                <span>مبرمجة</span>
-              </div>
             </div>
-          </div>
 
-          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="assets/img/team/team-88.jfif" class="img-fluid" alt="" />
-                <div class="social">
-                  <a href="https://github.com/Lobana-sky"><i class="bi bi-github"></i></a>
-                  <a href="https://www.linkedin.com/in/lobana-alarabi-38470b199/"><i class="bi bi-linkedin"></i></a>
-                  <a href=""><i class="bi bi-link-45deg"></i></a>
+            <div class="col-lg-2 col-md-6  align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="200">
+                <div class="member-img">
+                <!-- <img src="assets/img/team/team-66.jfif" class="img-fluid" alt="" /> -->
+                  <div class="social">
+                    <a href="https://samaromm.github.io/samarspace/#/"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a href="https://www.linkedin.com/in/samaromm/"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>سمر عمر</h4>
+                  <span>CEO Founder</span>
+                  <span>مبرمجة</span>
                 </div>
               </div>
-              <div class="member-info">
-                <h4>لوبانا الأعرابي</h4>
-                <span>مبرمجة</span>
-              </div>
             </div>
-          </div>
 
-          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
-              <div class="member-img">
-                <img src="assets/img/team/team-55.jpg" class="img-fluid" alt="" />
-                <div class="social">
-                  <a href="https://github.com/manelurki"><i class="bi bi-github"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                  <a href=""><i class="bi bi-link-45deg"></i></a>
+            <div class="col-lg-2 col-md-6  align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="300">
+                <div class="member-img">
+                <!-- <img src="assets/img/team/team-88.jfif" class="img-fluid" alt="" /> -->
+                  <div class="social">
+                    <a href="https://github.com/Lobana-sky"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/lobana-alarabi-38470b199/"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>لوبانا العربي</h4>
+                  <span>CEO Founder</span>
+                  <span>مبرمجة</span>
                 </div>
               </div>
-              <div class="member-info">
-                <h4>منال التركي</h4>
-                <span>مبرمجة</span>
-              </div>
             </div>
-          </div>
-          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
-              <div class="member-img">
-                <img src="assets/img/team/team-44.jfif" class="img-fluid" alt="" />
-                <div class="social">
-                  <a href="https://github.com/yvvsra"><i class="bi bi-github"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                  <a href=""><i class="bi bi-link-45deg"></i></a>
+
+            <div class="col-lg-2 col-md-6  align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="400">
+                <div class="member-img">
+                <!-- <img src="assets/img/team/team-55.jpg" class="img-fluid" alt="" /> -->
+                  <div class="social">
+                    <a href="https://github.com/manelurki"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>منال اكار</h4>
+                  <span>CEO Founder</span>
+                  <span>مبرمجة</span>
                 </div>
               </div>
-              <div class="member-info">
-                <h4>يسرى عطا</h4>
-                <span>مبرمجة</span>
+            </div>
+            <div class="col-lg-2 col-md-6  align-items-center">
+              <div class="member" data-aos="fade-up" data-aos-delay="400">
+                <div class="member-img">
+                <!-- <img src="assets/img/team/team-44.jfif" class="img-fluid" alt="" /> -->
+                  <div class="social">
+                    <a href="https://github.com/yvvsra"
+                      ><i class="bi bi-github"></i
+                    ></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href=""><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>يسرى أتا</h4>
+                  <span>CEO Founder</span>
+                  <span>مبرمجة</span>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <!-- <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
               <div class="member" data-aos="fade-up" data-aos-delay="400">
                 <div class="member-img">
                   <img
@@ -888,15 +1033,14 @@ $name1='';
                   </div>
                 </div>
                 <div class="member-info">
-                  <h4>زينب  </h4>
-                  <span>مبرمجة</span>
+                  <h4>Zeynep </h4>
+                  <span>Fullstack Developer</span>
                 </div>
               </div>
-            </div>
-        </div> -->
-      </div>
+            </div> -->
+          </div>
+        </div>
     </section>
-    <!-- End Team Section -->
 
 
 

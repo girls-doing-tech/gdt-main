@@ -702,7 +702,7 @@ $name1='';
                   </div>
                 </div>
                 <div class="member-info">
-                  <h4>Menel Turki</h4>
+                  <h4>Menel Eker</h4>
                   <span>Kurucu & Ceo </span>
                   <span>Yazılımcı</span>
                 </div>
@@ -805,7 +805,8 @@ $name1='';
 
             <div class="col-lg-8 mt-5 mt-lg-0">
               <form
-                action="forms/contact.php "  onsubmit="alert('İletişime geçtiğiniz için teşekkürler');" enctype="multipart/form-data"
+                action="forms/contact.php "  onsubmit="alert('İletişime geçtiğiniz için teşekkürler');"
+                 enctype="multipart/form-data"
                 method="post"     
                
               >
