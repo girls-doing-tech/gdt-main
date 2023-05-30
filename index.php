@@ -673,7 +673,7 @@ $name1='';
                   </div>
                 </div>
                 <div class="member-info">
-                  <h4>Menel Turki</h4>
+                  <h4>Menel Eker</h4>
                   <span>CEO Founder</span>
                   <span>Full stack developer</span>
                 </div>
